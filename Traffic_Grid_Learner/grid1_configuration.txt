@@ -1,0 +1,12 @@
+grid1
+3
+3
+NSS
+ET
+G
+EWS
+G
+I
+G
+G
+NSS

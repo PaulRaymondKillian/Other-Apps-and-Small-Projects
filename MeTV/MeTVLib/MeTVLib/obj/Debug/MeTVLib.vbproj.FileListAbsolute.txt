@@ -1,0 +1,11 @@
+C:\Killian Intelligence Systems\MeTV\MeTVLib\MeTVLib\bin\Debug\MeTVLib.dll
+C:\Killian Intelligence Systems\MeTV\MeTVLib\MeTVLib\bin\Debug\MeTVLib.pdb
+C:\Killian Intelligence Systems\MeTV\MeTVLib\MeTVLib\bin\Debug\MeTVLib.xml
+C:\Killian Intelligence Systems\MeTV\MeTVLib\MeTVLib\obj\Debug\ResolveAssemblyReference.cache
+C:\Killian Intelligence Systems\MeTV\MeTVLib\MeTVLib\obj\Debug\MeTVLib.Resources.resources
+C:\Killian Intelligence Systems\MeTV\MeTVLib\MeTVLib\obj\Debug\GenerateResource.read.1.tlog
+C:\Killian Intelligence Systems\MeTV\MeTVLib\MeTVLib\obj\Debug\GenerateResource.write.1.tlog
+C:\Killian Intelligence Systems\MeTV\MeTVLib\MeTVLib\obj\Debug\MeTVLib.dll
+C:\Killian Intelligence Systems\MeTV\MeTVLib\MeTVLib\obj\Debug\MeTVLib.xml
+C:\Killian Intelligence Systems\MeTV\MeTVLib\MeTVLib\obj\Debug\MeTVLib.pdb
+C:\Killian Intelligence Systems\MeTV\MeTVLib\MeTVLib\bin\Debug\MeTVLib.dll.config

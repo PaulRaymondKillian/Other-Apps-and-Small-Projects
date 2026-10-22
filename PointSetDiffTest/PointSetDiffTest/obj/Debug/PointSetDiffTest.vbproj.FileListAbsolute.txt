@@ -1,0 +1,9 @@
+C:\Users\Killian\AppData\Local\Temporary Projects\PointSetDiffTest\bin\Debug\PointSetDiffTest.exe
+C:\Users\Killian\AppData\Local\Temporary Projects\PointSetDiffTest\bin\Debug\PointSetDiffTest.pdb
+C:\Users\Killian\AppData\Local\Temporary Projects\PointSetDiffTest\bin\Debug\PointSetDiffTest.xml
+C:\Users\Killian\AppData\Local\Temporary Projects\PointSetDiffTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Killian\AppData\Local\Temporary Projects\PointSetDiffTest\obj\Debug\PointSetDiffTest.Resources.resources
+C:\Users\Killian\AppData\Local\Temporary Projects\PointSetDiffTest\obj\Debug\PointSetDiffTest.vbproj.GenerateResource.Cache
+C:\Users\Killian\AppData\Local\Temporary Projects\PointSetDiffTest\obj\Debug\PointSetDiffTest.exe
+C:\Users\Killian\AppData\Local\Temporary Projects\PointSetDiffTest\obj\Debug\PointSetDiffTest.xml
+C:\Users\Killian\AppData\Local\Temporary Projects\PointSetDiffTest\obj\Debug\PointSetDiffTest.pdb

@@ -1,0 +1,9 @@
+C:\Users\Killian\AppData\Local\Temporary Projects\TVShowDirectoryApp\bin\Debug\TVShowDirectoryApp.exe
+C:\Users\Killian\AppData\Local\Temporary Projects\TVShowDirectoryApp\bin\Debug\TVShowDirectoryApp.pdb
+C:\Users\Killian\AppData\Local\Temporary Projects\TVShowDirectoryApp\bin\Debug\TVShowDirectoryApp.xml
+C:\Users\Killian\AppData\Local\Temporary Projects\TVShowDirectoryApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Killian\AppData\Local\Temporary Projects\TVShowDirectoryApp\obj\Debug\TVShowDirectoryApp.Resources.resources
+C:\Users\Killian\AppData\Local\Temporary Projects\TVShowDirectoryApp\obj\Debug\TVShowDirectoryApp.vbproj.GenerateResource.Cache
+C:\Users\Killian\AppData\Local\Temporary Projects\TVShowDirectoryApp\obj\Debug\TVShowDirectoryApp.exe
+C:\Users\Killian\AppData\Local\Temporary Projects\TVShowDirectoryApp\obj\Debug\TVShowDirectoryApp.xml
+C:\Users\Killian\AppData\Local\Temporary Projects\TVShowDirectoryApp\obj\Debug\TVShowDirectoryApp.pdb

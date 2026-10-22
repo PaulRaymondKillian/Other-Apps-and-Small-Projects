@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Integrys.Training.Web", "Integrys.Training.Web\Integrys.Training.Web.vbproj", "{CC01FCBF-EE83-4F2E-B1E2-389D88B51632}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Integrys.Training.Domain", "Integrys.Training.Domain\Integrys.Training.Domain.vbproj", "{3891E886-D150-4776-8E11-651315C18198}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WebApplication1", "WebApplication1\WebApplication1.vbproj", "{280AC92A-13DD-4136-A3FD-0683633B3D67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC01FCBF-EE83-4F2E-B1E2-389D88B51632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC01FCBF-EE83-4F2E-B1E2-389D88B51632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC01FCBF-EE83-4F2E-B1E2-389D88B51632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC01FCBF-EE83-4F2E-B1E2-389D88B51632}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3891E886-D150-4776-8E11-651315C18198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3891E886-D150-4776-8E11-651315C18198}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3891E886-D150-4776-8E11-651315C18198}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3891E886-D150-4776-8E11-651315C18198}.Release|Any CPU.Build.0 = Release|Any CPU
+		{280AC92A-13DD-4136-A3FD-0683633B3D67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{280AC92A-13DD-4136-A3FD-0683633B3D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{280AC92A-13DD-4136-A3FD-0683633B3D67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{280AC92A-13DD-4136-A3FD-0683633B3D67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dbDEVCisTModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="dbDEVCisTModelStoreContainer">
+    <EntitySet Name="tAddress" EntityType="dbDEVCisTModel.Store.tAddress" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tContract" EntityType="dbDEVCisTModel.Store.tContract" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tContractServicePremiseService" EntityType="dbDEVCisTModel.Store.tContractServicePremiseService" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tCustomer" EntityType="dbDEVCisTModel.Store.tCustomer" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tPremise" EntityType="dbDEVCisTModel.Store.tPremise" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tPremiseService" EntityType="dbDEVCisTModel.Store.tPremiseService" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tPremiseServiceDevice" EntityType="dbDEVCisTModel.Store.tPremiseServiceDevice" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="tAddress">
+    <Key>
+      <PropertyRef Name="AddressId" />
+      <PropertyRef Name="tid" />
+    </Key>
+    <Property Name="AddressId" Type="int" Nullable="false" />
+    <Property Name="StandardAddrFormatFl" Type="tinyint" Nullable="false" />
+    <Property Name="ValidFl" Type="tinyint" Nullable="false" />
+    <Property Name="SkipValidationFl" Type="tinyint" Nullable="false" />
+    <Property Name="HouseNum" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="StreetDirPrefixCd" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="StreetNm" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="StreetTypeCd" Type="varchar" Nullable="false" MaxLength="4" />
+    <Property Name="StreetDirSuffixCd" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="ApartmentTypeCd" Type="varchar" Nullable="false" MaxLength="4" />
+    <Property Name="ApartmentNum" Type="varchar" Nullable="false" MaxLength="8" />
+    <Property Name="CityNm" Type="varchar" Nullable="false" MaxLength="28" />
+    <Property Name="StateCd" Type="char" Nullable="false" MaxLength="2" />
+    <Property Name="PostalCd" Type="char" Nullable="false" MaxLength="5" />
+    <Property Name="PostalExtCd" Type="char" Nullable="false" MaxLength="4" />
+    <Property Name="DelivPointCd" Type="char" MaxLength="2" />
+    <Property Name="ChkDigitNum" Type="char" MaxLength="1" />
+    <Property Name="CountyNm" Type="varchar" Nullable="false" MaxLength="25" />
+    <Property Name="CarrierRouteCd" Type="char" Nullable="false" MaxLength="4" />
+    <Property Name="NonStdAddr1Txt" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="NonStdAddr2Txt" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="NonStdAddr3Txt" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="CreateDt" Type="datetime" Nullable="false" />
+    <Property Name="SysTxnId" Type="char" Nullable="false" MaxLength="38" />
+    <Property Name="tid" Type="varchar" Nullable="false" MaxLength="25" />
+  </EntityType>
+  <EntityType Name="tContract">
+    <Key>
+      <PropertyRef Name="CustId" />
+      <PropertyRef Name="ContractSeqNum" />
+      <PropertyRef Name="tid" />
+    </Key>
+    <Property Name="CustId" Type="int" Nullable="false" />
+    <Property Name="ContractSeqNum" Type="smallint" Nullable="false" />
+    <Property Name="ContractStatusCd" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="ContractBeginDt" Type="smalldatetime" Nullable="false" />
+    <Property Name="ContractEndDt" Type="smalldatetime" Nullable="false" />
+    <Property Name="CompanyId" Type="int" Nullable="false" />
+    <Property Name="NextBillDt" Type="smalldatetime" Nullable="false" />
+    <Property Name="BillCycleId" Type="tinyint" Nullable="false" />
+    <Property Name="OutOfBalanceFl" Type="tinyint" Nullable="false" />
+    <Property Name="CnvDt" Type="smalldatetime" />
+    <Property Name="BadDebtFl" Type="tinyint" />
+    <Property Name="CtrTypeCd" Type="char" Nullable="false" MaxLength="2" />
+    <Property Name="RegionCd" Type="varchar" Nullable="false" MaxLength="4" />
+    <Property Name="SysTxnId" Type="char" Nullable="false" MaxLength="38" />
+    <Property Name="tid" Type="varchar" Nullable="false" MaxLength="25" />
+  </EntityType>
+  <EntityType Name="tContractServicePremiseService">
+    <Key>
+      <PropertyRef Name="CustId" />
+      <PropertyRef Name="ContractSeqNum" />
+      <PropertyRef Name="ServiceSeqNum" />
+      <PropertyRef Name="tid" />
+    </Key>
+    <Property Name="CustId" Type="int" Nullable="false" />
+    <Property Name="ContractSeqNum" Type="smallint" Nullable="false" />
+    <Property Name="ServiceSeqNum" Type="smallint" Nullable="false" />
+    <Property Name="PremiseId" Type="int" Nullable="false" />
+    <Property Name="PremiseServiceSeqNum" Type="smallint" Nullable="false" />
+    <Property Name="SysTxnId" Type="char" Nullable="false" MaxLength="38" />
+    <Property Name="tid" Type="varchar" Nullable="false" MaxLength="25" />
+  </EntityType>
+  <EntityType Name="tCustomer">
+    <Key>
+      <PropertyRef Name="CustId" />
+      <PropertyRef Name="tid" />
+    </Key>
+    <Property Name="CustId" Type="int" Nullable="false" />
+    <Property Name="CustStatusCd" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="CustTypeCd" Type="char" Nullable="false" MaxLength="2" />
+    <Property Name="CustFullNm" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="BeginDt" Type="smalldatetime" Nullable="false" />
+    <Property Name="CnvDt" Type="smalldatetime" />
+    <Property Name="FirstNm" Type="varchar" MaxLength="15" />
+    <Property Name="MiddleNm" Type="varchar" MaxLength="15" />
+    <Property Name="LastNm" Type="varchar" MaxLength="20" />
+    <Property Name="NamePrefixTxt" Type="varchar" MaxLength="10" />
+    <Property Name="NameSuffixTxt" Type="varchar" MaxLength="10" />
+    <Property Name="DoingBusinessAsNm" Type="varchar" MaxLength="50" />
+    <Property Name="TaxId" Type="numeric" Precision="9" />
+    <Property Name="SocSecNum" Type="numeric" Precision="9" />
+    <Property Name="ChngRsnRmkLogId" Type="int" />
+    <Property Name="SysTxnId" Type="char" Nullable="false" MaxLength="38" />
+    <Property Name="tid" Type="varchar" Nullable="false" MaxLength="25" />
+  </EntityType>
+  <EntityType Name="tPremise">
+    <Key>
+      <PropertyRef Name="PremiseId" />
+      <PropertyRef Name="tid" />
+    </Key>
+    <Property Name="PremiseId" Type="int" Nullable="false" />
+    <Property Name="AddressId" Type="int" Nullable="false" />
+    <Property Name="PremiseTypeCd" Type="char" Nullable="false" MaxLength="2" />
+    <Property Name="CnvDt" Type="smalldatetime" />
+    <Property Name="RegionCd" Type="varchar" MaxLength="4" />
+    <Property Name="UsesDSTFl" Type="tinyint" Nullable="false" />
+    <Property Name="SysTxnId" Type="char" Nullable="false" MaxLength="38" />
+    <Property Name="tid" Type="varchar" Nullable="false" MaxLength="25" />
+  </EntityType>
+  <EntityType Name="tPremiseService">
+    <Key>
+      <PropertyRef Name="PremiseId" />
+      <PropertyRef Name="PremiseServiceSeqNum" />
+      <PropertyRef Name="tid" />
+    </Key>
+    <Property Name="PremiseId" Type="int" Nullable="false" />
+    <Property Name="PremiseServiceSeqNum" Type="smallint" Nullable="false" />
+    <Property Name="PremiseServiceStatusCd" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="LockTypeCd" Type="char" MaxLength="2" />
+    <Property Name="PremiseServiceTypeCd" Type="char" Nullable="false" MaxLength="2" />
+    <Property Name="HasDeviceFl" Type="tinyint" Nullable="false" />
+    <Property Name="BeginDt" Type="smalldatetime" Nullable="false" />
+    <Property Name="EndDt" Type="smalldatetime" Nullable="false" />
+    <Property Name="SysTxnId" Type="char" Nullable="false" MaxLength="38" />
+    <Property Name="tid" Type="varchar" Nullable="false" MaxLength="25" />
+  </EntityType>
+  <EntityType Name="tPremiseServiceDevice">
+    <Key>
+      <PropertyRef Name="PremiseId" />
+      <PropertyRef Name="PremiseServiceSeqNum" />
+      <PropertyRef Name="InstallDm" />
+      <PropertyRef Name="tid" />
+    </Key>
+    <Property Name="PremiseId" Type="int" Nullable="false" />
+    <Property Name="PremiseServiceSeqNum" Type="smallint" Nullable="false" />
+    <Property Name="InstallDm" Type="smalldatetime" Nullable="false" />
+    <Property Name="DeviceId" Type="int" Nullable="false" />
+    <Property Name="RemoveReasonCd" Type="varchar" MaxLength="4" />
+    <Property Name="RemoveDm" Type="smalldatetime" Nullable="false" />
+    <Property Name="SysTxnId" Type="char" Nullable="false" MaxLength="38" />
+    <Property Name="tid" Type="varchar" Nullable="false" MaxLength="25" />
+  </EntityType>
+  <Function Name="xspWPSContractJM110" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CustId" Type="int" Mode="In" />
+    <Parameter Name="ContractSeqNum" Type="smallint" Mode="In" />
+    <Parameter Name="dtid" Type="varchar" Mode="In" />
+  </Function>
+</Schema>

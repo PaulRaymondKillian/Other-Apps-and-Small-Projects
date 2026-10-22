@@ -1,0 +1,10 @@
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator\Traffic_Simulator\bin\Debug\Traffic_Simulator.exe
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator\Traffic_Simulator\bin\Debug\Traffic_Simulator.pdb
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator\Traffic_Simulator\bin\Debug\Traffic_Simulator.xml
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator\Traffic_Simulator\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator\Traffic_Simulator\obj\Debug\Traffic_Simulator.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator\Traffic_Simulator\obj\Debug\Traffic_Simulator.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator\Traffic_Simulator\obj\Debug\Traffic_Simulator.exe
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator\Traffic_Simulator\obj\Debug\Traffic_Simulator.xml
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator\Traffic_Simulator\obj\Debug\Traffic_Simulator.pdb
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator\Traffic_Simulator\obj\Debug\Traffic_Simulator.TrafficDisplay.resources

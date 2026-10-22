@@ -1,0 +1,7 @@
+C:\Killian Intelligence Systems\WeddingPlaylistManager\MusicPlayerLib\TestHarness\bin\Debug\TestHarness.exe
+C:\Killian Intelligence Systems\WeddingPlaylistManager\MusicPlayerLib\TestHarness\bin\Debug\TestHarness.pdb
+C:\Killian Intelligence Systems\WeddingPlaylistManager\MusicPlayerLib\TestHarness\bin\Debug\MusicPlayerLib.dll
+C:\Killian Intelligence Systems\WeddingPlaylistManager\MusicPlayerLib\TestHarness\bin\Debug\MusicPlayerLib.pdb
+C:\Killian Intelligence Systems\WeddingPlaylistManager\MusicPlayerLib\TestHarness\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Killian Intelligence Systems\WeddingPlaylistManager\MusicPlayerLib\TestHarness\obj\x86\Debug\TestHarness.exe
+C:\Killian Intelligence Systems\WeddingPlaylistManager\MusicPlayerLib\TestHarness\obj\x86\Debug\TestHarness.pdb

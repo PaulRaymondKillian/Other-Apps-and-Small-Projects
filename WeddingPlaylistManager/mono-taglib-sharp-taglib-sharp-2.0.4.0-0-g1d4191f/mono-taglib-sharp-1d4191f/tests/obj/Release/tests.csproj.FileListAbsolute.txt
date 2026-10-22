@@ -1,0 +1,1 @@
+C:\Source\_MISC\WeddingPlaylistManager\mono-taglib-sharp-taglib-sharp-2.0.4.0-0-g1d4191f\mono-taglib-sharp-1d4191f\tests\obj\Release\ResolveAssemblyReference.cache

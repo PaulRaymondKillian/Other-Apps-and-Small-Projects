@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dbDEVCisTModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="dbDEVCisTEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tAddresses" EntityType="dbDEVCisTModel.tAddress" />
+    <EntitySet Name="Customers" EntityType="dbDEVCisTModel.Customer" />
+    <EntitySet Name="tPremises" EntityType="dbDEVCisTModel.tPremise" />
+    <EntitySet Name="tPremiseServices" EntityType="dbDEVCisTModel.tPremiseService" />
+    <EntitySet Name="tPremiseServiceDevices" EntityType="dbDEVCisTModel.tPremiseServiceDevice" />
+    <EntitySet Name="tContracts" EntityType="dbDEVCisTModel.tContract" />
+    <EntitySet Name="tContractServicePremiseServices" EntityType="dbDEVCisTModel.tContractServicePremiseService" />
+    <AssociationSet Name="CustomertContract" Association="dbDEVCisTModel.CustomertContract">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="tContract" EntitySet="tContracts" />
+    </AssociationSet>
+    <AssociationSet Name="tContracttContractServicePremiseService" Association="dbDEVCisTModel.tContracttContractServicePremiseService">
+      <End Role="tContract" EntitySet="tContracts" />
+      <End Role="tContractServicePremiseService" EntitySet="tContractServicePremiseServices" />
+    </AssociationSet>
+    <AssociationSet Name="tContractServicePremiseServicetPremise" Association="dbDEVCisTModel.tContractServicePremiseServicetPremise">
+      <End Role="tContractServicePremiseService" EntitySet="tContractServicePremiseServices" />
+      <End Role="tPremise" EntitySet="tPremises" />
+    </AssociationSet>
+    <AssociationSet Name="tPremisetAddress" Association="dbDEVCisTModel.tPremisetAddress">
+      <End Role="tPremise" EntitySet="tPremises" />
+      <End Role="tAddress" EntitySet="tAddresses" />
+    </AssociationSet>
+    <FunctionImport Name="xspWPSContractsJM110" ReturnType="Collection(dbDEVCisTModel.xspWPSContractsJM110_Result)">
+      <Parameter Name="CustId" Mode="In" Type="Int32" />
+      <Parameter Name="ContractSeqNum" Mode="In" Type="Int16" />
+      <Parameter Name="dtid" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <EntityType Name="tAddress">
+    <Key>
+      <PropertyRef Name="AddressId" />
+      <PropertyRef Name="tid" />
+    </Key>
+    <Property Name="AddressId" Type="Int32" Nullable="false" />
+    <Property Name="StandardAddrFormatFl" Type="Byte" Nullable="false" />
+    <Property Name="ValidFl" Type="Byte" Nullable="false" />
+    <Property Name="SkipValidationFl" Type="Byte" Nullable="false" />
+    <Property Name="HouseNum" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="StreetDirPrefixCd" Type="String" Nullable="false" MaxLength="2" Unicode="false" FixedLength="false" />
+    <Property Name="StreetNm" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="StreetTypeCd" Type="String" Nullable="false" MaxLength="4" Unicode="false" FixedLength="false" />
+    <Property Name="StreetDirSuffixCd" Type="String" Nullable="false" MaxLength="2" Unicode="false" FixedLength="false" />
+    <Property Name="ApartmentTypeCd" Type="String" Nullable="false" MaxLength="4" Unicode="false" FixedLength="false" />
+    <Property Name="ApartmentNum" Type="String" Nullable="false" MaxLength="8" Unicode="false" FixedLength="false" />
+    <Property Name="CityNm" Type="String" Nullable="false" MaxLength="28" Unicode="false" FixedLength="false" />
+    <Property Name="StateCd" Type="String" Nullable="false" MaxLength="2" Unicode="false" FixedLength="true" />
+    <Property Name="PostalCd" Type="String" Nullable="false" MaxLength="5" Unicode="false" FixedLength="true" />
+    <Property Name="PostalExtCd" Type="String" Nullable="false" MaxLength="4" Unicode="false" FixedLength="true" />
+    <Property Name="DelivPointCd" Type="String" MaxLength="2" Unicode="false" FixedLength="true" />
+    <Property Name="ChkDigitNum" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="CountyNm" Type="String" Nullable="false" MaxLength="25" Unicode="false" FixedLength="false" />
+    <Property Name="CarrierRouteCd" Type="String" Nullable="false" MaxLength="4" Unicode="false" FixedLength="true" />
+    <Property Name="NonStdAddr1Txt" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="NonStdAddr2Txt" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="NonStdAddr3Txt" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="CreateDt" Type="DateTime" Nullable="false" />
+    <Property Name="SysTxnId" Type="String" Nullable="false" MaxLength="38" Unicode="false" FixedLength="true" />
+    <Property Name="tid" Type="String" Nullable="false" MaxLength="25" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="tPremise" Relationship="dbDEVCisTModel.tPremisetAddress" FromRole="tAddress" ToRole="tPremise" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="CustId" />
+      <PropertyRef Name="tid" />
+    </Key>
+    <Property Name="CustId" Type="Int32" Nullable="false" />
+    <Property Name="CustStatusCd" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="CustTypeCd" Type="String" Nullable="false" MaxLength="2" Unicode="false" FixedLength="true" />
+    <Property Name="CustFullNm" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="BeginDt" Type="DateTime" Nullable="false" />
+    <Property Name="CnvDt" Type="DateTime" />
+    <Property Name="FirstNm" Type="String" MaxLength="15" Unicode="false" FixedLength="false" />
+    <Property Name="MiddleNm" Type="String" MaxLength="15" Unicode="false" FixedLength="false" />
+    <Property Name="LastNm" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="NamePrefixTxt" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="NameSuffixTxt" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="DoingBusinessAsNm" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="TaxId" Type="Decimal" Precision="9" Scale="0" />
+    <Property Name="SocSecNum" Type="Decimal" Precision="9" Scale="0" />
+    <Property Name="ChngRsnRmkLogId" Type="Int32" />
+    <Property Name="SysTxnId" Type="String" Nullable="false" MaxLength="38" Unicode="false" FixedLength="true" />
+    <Property Name="tid" Type="String" Nullable="false" MaxLength="25" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="tContracts" Relationship="dbDEVCisTModel.CustomertContract" FromRole="Customer" ToRole="tContract" />
+  </EntityType>
+  <EntityType Name="tPremise">
+    <Key>
+      <PropertyRef Name="PremiseId" />
+      <PropertyRef Name="tid" />
+    </Key>
+    <Property Name="PremiseId" Type="Int32" Nullable="false" />
+    <Property Name="AddressId" Type="Int32" Nullable="false" />
+    <Property Name="PremiseTypeCd" Type="String" Nullable="false" MaxLength="2" Unicode="false" FixedLength="true" />
+    <Property Name="CnvDt" Type="DateTime" />
+    <Property Name="RegionCd" Type="String" MaxLength="4" Unicode="false" FixedLength="false" />
+    <Property Name="UsesDSTFl" Type="Byte" Nullable="false" />
+    <Property Name="SysTxnId" Type="String" Nullable="false" MaxLength="38" Unicode="false" FixedLength="true" />
+    <Property Name="tid" Type="String" Nullable="false" MaxLength="25" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="tContractServicePremiseServices" Relationship="dbDEVCisTModel.tContractServicePremiseServicetPremise" FromRole="tPremise" ToRole="tContractServicePremiseService" />
+    <NavigationProperty Name="tAddress" Relationship="dbDEVCisTModel.tPremisetAddress" FromRole="tPremise" ToRole="tAddress" />
+  </EntityType>
+  <EntityType Name="tPremiseService">
+    <Key>
+      <PropertyRef Name="PremiseId" />
+      <PropertyRef Name="PremiseServiceSeqNum" />
+      <PropertyRef Name="tid" />
+    </Key>
+    <Property Name="PremiseId" Type="Int32" Nullable="false" />
+    <Property Name="PremiseServiceSeqNum" Type="Int16" Nullable="false" />
+    <Property Name="PremiseServiceStatusCd" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="LockTypeCd" Type="String" MaxLength="2" Unicode="false" FixedLength="true" />
+    <Property Name="PremiseServiceTypeCd" Type="String" Nullable="false" MaxLength="2" Unicode="false" FixedLength="true" />
+    <Property Name="HasDeviceFl" Type="Byte" Nullable="false" />
+    <Property Name="BeginDt" Type="DateTime" Nullable="false" />
+    <Property Name="EndDt" Type="DateTime" Nullable="false" />
+    <Property Name="SysTxnId" Type="String" Nullable="false" MaxLength="38" Unicode="false" FixedLength="true" />
+    <Property Name="tid" Type="String" Nullable="false" MaxLength="25" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tPremiseServiceDevice">
+    <Key>
+      <PropertyRef Name="PremiseId" />
+      <PropertyRef Name="PremiseServiceSeqNum" />
+      <PropertyRef Name="InstallDm" />
+      <PropertyRef Name="tid" />
+    </Key>
+    <Property Name="PremiseId" Type="Int32" Nullable="false" />
+    <Property Name="PremiseServiceSeqNum" Type="Int16" Nullable="false" />
+    <Property Name="InstallDm" Type="DateTime" Nullable="false" />
+    <Property Name="DeviceId" Type="Int32" Nullable="false" />
+    <Property Name="RemoveReasonCd" Type="String" MaxLength="4" Unicode="false" FixedLength="false" />
+    <Property Name="RemoveDm" Type="DateTime" Nullable="false" />
+    <Property Name="SysTxnId" Type="String" Nullable="false" MaxLength="38" Unicode="false" FixedLength="true" />
+    <Property Name="tid" Type="String" Nullable="false" MaxLength="25" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tContract">
+    <Key>
+      <PropertyRef Name="CustId" />
+      <PropertyRef Name="ContractSeqNum" />
+      <PropertyRef Name="tid" />
+    </Key>
+    <Property Type="Int32" Name="CustId" Nullable="false" />
+    <Property Type="Int16" Name="ContractSeqNum" Nullable="false" />
+    <Property Type="String" Name="ContractStatusCd" Nullable="false" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Type="DateTime" Name="ContractBeginDt" Nullable="false" />
+    <Property Type="DateTime" Name="ContractEndDt" Nullable="false" />
+    <Property Type="Int32" Name="CompanyId" Nullable="false" />
+    <Property Type="DateTime" Name="NextBillDt" Nullable="false" />
+    <Property Type="Byte" Name="BillCycleId" Nullable="false" />
+    <Property Type="Byte" Name="OutOfBalanceFl" Nullable="false" />
+    <Property Type="DateTime" Name="CnvDt" />
+    <Property Type="Byte" Name="BadDebtFl" />
+    <Property Type="String" Name="CtrTypeCd" Nullable="false" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Type="String" Name="RegionCd" Nullable="false" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SysTxnId" Nullable="false" MaxLength="38" FixedLength="true" Unicode="false" />
+    <Property Type="String" Name="tid" Nullable="false" MaxLength="25" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Customer" Relationship="dbDEVCisTModel.CustomertContract" FromRole="tContract" ToRole="Customer" />
+    <NavigationProperty Name="tContractServicePremiseServices" Relationship="dbDEVCisTModel.tContracttContractServicePremiseService" FromRole="tContract" ToRole="tContractServicePremiseService" />
+  </EntityType>
+  <EntityType Name="tContractServicePremiseService">
+    <Key>
+      <PropertyRef Name="CustId" />
+      <PropertyRef Name="ContractSeqNum" />
+      <PropertyRef Name="ServiceSeqNum" />
+      <PropertyRef Name="tid" />
+    </Key>
+    <Property Type="Int32" Name="CustId" Nullable="false" />
+    <Property Type="Int16" Name="ContractSeqNum" Nullable="false" />
+    <Property Type="Int16" Name="ServiceSeqNum" Nullable="false" />
+    <Property Type="Int32" Name="PremiseId" Nullable="false" />
+    <Property Type="Int16" Name="PremiseServiceSeqNum" Nullable="false" />
+    <Property Type="String" Name="SysTxnId" Nullable="false" MaxLength="38" FixedLength="true" Unicode="false" />
+    <Property Type="String" Name="tid" Nullable="false" MaxLength="25" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="tContract" Relationship="dbDEVCisTModel.tContracttContractServicePremiseService" FromRole="tContractServicePremiseService" ToRole="tContract" />
+    <NavigationProperty Name="tPremise" Relationship="dbDEVCisTModel.tContractServicePremiseServicetPremise" FromRole="tContractServicePremiseService" ToRole="tPremise" />
+  </EntityType>
+  <Association Name="CustomertContract">
+    <End Type="dbDEVCisTModel.Customer" Role="Customer" Multiplicity="1" />
+    <End Type="dbDEVCisTModel.tContract" Role="tContract" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="CustId" />
+        <PropertyRef Name="tid" />
+      </Principal>
+      <Dependent Role="tContract">
+        <PropertyRef Name="CustId" />
+        <PropertyRef Name="tid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="tContracttContractServicePremiseService">
+    <End Type="dbDEVCisTModel.tContract" Role="tContract" Multiplicity="1" />
+    <End Type="dbDEVCisTModel.tContractServicePremiseService" Role="tContractServicePremiseService" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tContract">
+        <PropertyRef Name="CustId" />
+        <PropertyRef Name="ContractSeqNum" />
+        <PropertyRef Name="tid" />
+      </Principal>
+      <Dependent Role="tContractServicePremiseService">
+        <PropertyRef Name="CustId" />
+        <PropertyRef Name="ContractSeqNum" />
+        <PropertyRef Name="tid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="tContractServicePremiseServicetPremise">
+    <End Type="dbDEVCisTModel.tContractServicePremiseService" Role="tContractServicePremiseService" Multiplicity="*" />
+    <End Type="dbDEVCisTModel.tPremise" Role="tPremise" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="tPremise">
+        <PropertyRef Name="PremiseId" />
+        <PropertyRef Name="tid" />
+      </Principal>
+      <Dependent Role="tContractServicePremiseService">
+        <PropertyRef Name="PremiseId" />
+        <PropertyRef Name="tid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="tPremisetAddress">
+    <End Type="dbDEVCisTModel.tPremise" Role="tPremise" Multiplicity="*" />
+    <End Type="dbDEVCisTModel.tAddress" Role="tAddress" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="tAddress">
+        <PropertyRef Name="AddressId" />
+        <PropertyRef Name="tid" />
+      </Principal>
+      <Dependent Role="tPremise">
+        <PropertyRef Name="AddressId" />
+        <PropertyRef Name="tid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <ComplexType Name="xspWPSContractsJM110_Result">
+    <Property Type="Int32" Name="CustId" Nullable="false" />
+    <Property Type="Int16" Name="CtrSeqNum" Nullable="false" />
+    <Property Type="String" Name="CustFullNm" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="TaxId" Nullable="true" MaxLength="18" />
+    <Property Type="String" Name="SocSecNum" Nullable="true" MaxLength="18" />
+    <Property Type="Int32" Name="CompId" Nullable="false" />
+    <Property Type="String" Name="CtrTypeCd" Nullable="false" MaxLength="2" />
+    <Property Type="String" Name="CtrStatCd" Nullable="false" MaxLength="1" />
+    <Property Type="Int32" Name="PremiseId" Nullable="false" />
+    <Property Type="String" Name="FirstNm" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="MiddleNm" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="LastNm" Nullable="true" MaxLength="20" />
+  </ComplexType>
+</Schema>

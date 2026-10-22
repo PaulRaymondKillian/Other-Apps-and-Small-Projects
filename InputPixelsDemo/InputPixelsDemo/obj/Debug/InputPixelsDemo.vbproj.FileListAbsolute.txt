@@ -1,0 +1,20 @@
+C:\Documents and Settings\Mutiny34\Local Settings\Application Data\Temporary Projects\InputPixelsDemo\bin\Debug\InputPixelsDemo.exe
+C:\Documents and Settings\Mutiny34\Local Settings\Application Data\Temporary Projects\InputPixelsDemo\bin\Debug\InputPixelsDemo.pdb
+C:\Documents and Settings\Mutiny34\Local Settings\Application Data\Temporary Projects\InputPixelsDemo\bin\Debug\InputPixelsDemo.xml
+C:\Documents and Settings\Mutiny34\Local Settings\Application Data\Temporary Projects\InputPixelsDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mutiny34\Local Settings\Application Data\Temporary Projects\InputPixelsDemo\obj\Debug\InputPixelsDemo.Form1.resources
+C:\Documents and Settings\Mutiny34\Local Settings\Application Data\Temporary Projects\InputPixelsDemo\obj\Debug\InputPixelsDemo.Resources.resources
+C:\Documents and Settings\Mutiny34\Local Settings\Application Data\Temporary Projects\InputPixelsDemo\obj\Debug\InputPixelsDemo.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Mutiny34\Local Settings\Application Data\Temporary Projects\InputPixelsDemo\obj\Debug\InputPixelsDemo.exe
+C:\Documents and Settings\Mutiny34\Local Settings\Application Data\Temporary Projects\InputPixelsDemo\obj\Debug\InputPixelsDemo.xml
+C:\Documents and Settings\Mutiny34\Local Settings\Application Data\Temporary Projects\InputPixelsDemo\obj\Debug\InputPixelsDemo.pdb
+D:\InputPixelsDemo\InputPixelsDemo\obj\Debug\InputPixelsDemo.exe
+D:\InputPixelsDemo\InputPixelsDemo\obj\Debug\InputPixelsDemo.xml
+D:\InputPixelsDemo\InputPixelsDemo\obj\Debug\InputPixelsDemo.pdb
+D:\InputPixelsDemo\InputPixelsDemo\bin\Debug\InputPixelsDemo.exe
+D:\InputPixelsDemo\InputPixelsDemo\bin\Debug\InputPixelsDemo.pdb
+D:\InputPixelsDemo\InputPixelsDemo\bin\Debug\InputPixelsDemo.xml
+D:\InputPixelsDemo\InputPixelsDemo\obj\Debug\ResolveAssemblyReference.cache
+D:\InputPixelsDemo\InputPixelsDemo\obj\Debug\InputPixelsDemo.Form1.resources
+D:\InputPixelsDemo\InputPixelsDemo\obj\Debug\InputPixelsDemo.Resources.resources
+D:\InputPixelsDemo\InputPixelsDemo\obj\Debug\InputPixelsDemo.vbproj.GenerateResource.Cache

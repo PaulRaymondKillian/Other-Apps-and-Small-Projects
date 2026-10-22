@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <appSettings>
+    <add key="BeerDataPath" value="BeerData.xml" />
+    <add key="WindowMaximized" value="False"/>
+    <add key="WindowWidth" value="900"/>
+    <add key="WindowHeight" value="400"/>
+    <add key="CenterWindow" value="True"/>
+    <add key="LoggingEnabled" value="True"/>
+  </appSettings>
+</configuration>

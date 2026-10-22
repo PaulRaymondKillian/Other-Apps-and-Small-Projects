@@ -1,0 +1,34 @@
+﻿CREATE TABLE tGenres
+(
+ID int PRIMARY KEY IDENTITY NOT NULL,
+Name nvarchar(255) NOT NULL UNIQUE,
+Description nvarchar(255)
+)
+
+CREATE TABLE tArtists
+(
+ID int PRIMARY KEY IDENTITY NOT NULL,
+Name nvarchar(255) NOT NULL UNIQUE
+)
+
+CREATE TABLE tAlbums
+(
+ID int PRIMARY KEY IDENTITY NOT NULL,
+Name nvarchar(255) NOT NULL,
+AlbumYear int,
+AlbumArtPath nvarchar(255),
+Description nvarchar(255),
+)
+
+CREATE TABLE tSongs
+(
+ID int PRIMARY KEY IDENTITY NOT NULL,
+Name nvarchar(255) NOT NULL,
+FilePath nvarchar(255) NOT NULL UNIQUE,
+ArtistID int NOT NULL,
+AlbumID int,
+Duration nvarchar(25),
+Rating int,
+FOREIGN KEY(ArtistID) REFERENCES tArtists(ID),
+FOREIGN KEY(AlbumID) REFERENCES tAlbums(ID)
+)

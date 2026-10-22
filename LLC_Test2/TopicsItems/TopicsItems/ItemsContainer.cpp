@@ -1,0 +1,257 @@
+#include <iostream>
+#include "ItemsContainer.h"
+using namespace std;
+
+ItemsContainer::ItemsContainer()
+{
+	InitContainer();
+}
+
+void ItemsContainer::InitContainer()
+{
+	_CountItems = 0;
+}//Init Container
+
+void ItemsContainer::LoadInputFile(string pFilePath)
+{
+	_CountItems = ReadFileIntoItems(pFilePath);
+}//LoadInputFile
+
+//Reads the inputted file, returns the number of items in file (number of lines in the file)
+int ItemsContainer::ReadFileIntoItems(string pFilePath)
+{
+	int count = 0;
+	string s = "";
+	string line;
+	vector<string> split;
+
+	//ifstream qFile(pFilePath.c_str()); //G++ compiler doesnt like this method of opening file
+    ifstream File;
+	File.open(pFilePath.c_str());
+
+    while (File.peek() != EOF) 
+	{
+        getline(File, line);
+        split = SplitString(line, '\t');
+
+		if(split.size() == 2)
+		{
+
+		AddItem(split[1], split[0]);
+
+		count++;
+		}
+    }
+		File.close();
+    
+	return count;
+}//ReadFile
+
+Category* ItemsContainer::GetCategory(string pCatName, bool pCreateIfNotExist)
+{
+	Category* Cat = NULL;
+
+	Cat = _MapCategories[pCatName];
+
+	//for(vector<Category*>::iterator iter = _Categories.begin(); iter != _Categories.end(); ++iter)
+	//	if( (*iter)->GetName() == pCatName)
+	//	{
+	//		Cat = *iter;
+	//		break;
+	//	}
+
+	if(!Cat && pCreateIfNotExist)
+	{
+		Cat = new Category(pCatName);
+		//_Categories.push_back(Cat);
+		_MapCategories[pCatName] = Cat;
+	}
+
+	return Cat;
+}//GetCategory
+
+Item* ItemsContainer::GetItem(string pItemName, bool CreateIfNotExist)
+{
+	Item* It = NULL;
+
+	It = _MapItems[pItemName];
+	//for(vector<Item*>::iterator iter = _Items.begin(); iter != _Items.end(); ++iter)
+	//	if( (*iter)->GetName() == pItemName)
+	//	{
+	//		It = *iter;
+	//		break;
+	//	}
+
+	if(!It)
+	{
+		It = new Item(pItemName);
+		//_Items.push_back(It);
+		_MapItems[pItemName] = It;
+	}
+
+	return It;
+}//GetCategory
+
+void ItemsContainer::AddItem(string pCatName, string pItemName)
+{
+	Category *SelectedCategory = NULL;
+	SelectedCategory = GetCategory(pCatName, true);
+
+	Item *SelectedItem = NULL;
+	SelectedItem = GetItem(pItemName, true);
+
+	if(SelectedCategory && SelectedItem)
+	{
+		SelectedCategory->AddItem(SelectedItem);
+		SelectedItem->AddCategory(SelectedCategory);
+		
+		//Remove sort here... if we sort on every addition, that is a lot of sorting. We should only sort when the order list is needed: Sort uses O(n*logn) time 
+		//sort(_OrderedCategories.begin(), _OrderedCategories.end(), CompareCategories);
+	}
+
+}//AddItem
+
+int ItemsContainer::GetItemsCount()
+{
+	return _CountItems;
+}//GetItemsCount
+
+//This should run in O(n), Linear time
+//Note: This is better than keeping an ordered vector using <algorithm> sort because that sort requires O(nlogn), loglinear time, 
+//		while iterating through an unordered list requries only O(n) time, given that there are less than n-iterations.
+vector<Pair> ItemsContainer::GetMostFrequentPairs(int pCount)
+{
+	vector<Pair> MostFrequentPairs;
+	int CurrentHighestValue;
+	Category *CurrentHighestCat;
+	Item *CurrentHighestItem;
+	Category *CurrentCat;
+
+	for(int count = 0; count < pCount; count++)
+	{	
+		CurrentHighestValue = 0;
+		//For though each category
+		for(map<string, Category*>::iterator iterCat = _MapCategories.begin(); iterCat != _MapCategories.end(); ++iterCat)
+		{	//Go through each item of the category
+			CurrentCat = (*iterCat).second;
+			map<Item*, int> Items = CurrentCat->GetAllItemsMap();
+			//I am not fond of this part, because it requires private knowledge of the implementation of the Category object
+			for(map<Item*, int>::iterator iterItem = Items.begin(); iterItem != Items.end(); ++iterItem)
+			{
+				if( (*iterItem).second > CurrentHighestValue && !(*iterItem).first->IsSelected(CurrentCat->GetName()))
+				{
+					CurrentHighestCat = (*iterCat).second;
+					CurrentHighestItem = (*iterItem).first;
+					CurrentHighestValue = (*iterItem).second;
+				}
+			}//for - Map Items
+		}//for - Map Categories
+		Pair newPair;
+		newPair._Category = CurrentHighestCat;
+		newPair._Item = CurrentHighestItem;
+		MostFrequentPairs.push_back(newPair);
+
+		//Set this pair as selected
+		CurrentHighestCat->SetSelected(CurrentHighestItem->GetName());
+		CurrentHighestItem->SetSelected(CurrentHighestCat->GetName());
+	}//for - count
+
+	return MostFrequentPairs;
+}//GetMostFrequentPairs
+
+string GetMostFrequestPairsAsString(int pCount)
+{
+	return "";
+}//GetMostFrequentPairsAsString
+
+//This should run in O(n), Linear time (Case Insensitive in O(n^2) time)
+//Note: This is better than keeping an ordered vector using <algorithm> sort because that sort requires O(nlogn), loglinear time, 
+//		while iterating through an unordered list requries only O(n) time, given that there are less than n-iterations..
+vector<Category*> ItemsContainer::GetMostFrequentCategories(int pCount, bool pIsCaseInsensitive)
+{
+	vector<Category*> SelectedCategories;
+	int CurrentHighestCount;
+	//Category *CurrentCat = NULL;
+	vector<Category*> CurrentCat;
+	vector<Category*> CurrentHighestCat;
+
+	for(int i=0; i<pCount; i++)
+	{
+		CurrentHighestCount = 0;
+		CurrentCat.clear();
+		CurrentHighestCat.clear();
+		for(map<string, Category*>::iterator iter = _MapCategories.begin(); iter != _MapCategories.end(); ++iter)
+		{	//Only check Category if not already selected
+			if(!(*iter).second->IsSelected())
+			{
+				//We are storing the current categories in a vector to easily handle multiple categories for a case-insensitive search
+				CurrentCat.clear();
+				CurrentCat.push_back((*iter).second);
+
+				//If not case sensitive, search through categories for similar categories and add to current cat vector: O(n) runtime
+				//Note: We will use the collection of categories to gather the count value, and set them all as selected if selected.
+				if(pIsCaseInsensitive)
+				{
+					for(map<string, Category*>::iterator iter2 = _MapCategories.begin(); iter2 != _MapCategories.end(); ++iter2)
+					{	//If the Category's name is equal to current category, with case insensitive, but Category is not the same as current category
+						if(CurrentCat[0]->GetName() == "shopping")
+							int x = 1;
+						if(EqualStringsInsensitive((*iter2).first, CurrentCat[0]->GetName()) && (*iter2).first != CurrentCat[0]->GetName())
+							CurrentCat.push_back((*iter2).second);	//Add Category to Current Category vector
+					}//for - iter2
+				}//If CaseInsensitive
+
+				//Check if the category or collection of categories has a higher count than current highest count
+				if( Category::GetCount(CurrentCat) > CurrentHighestCount)
+				{	//Clear the current highest categories, then set new highest category and count
+					CurrentHighestCat.clear();
+					CurrentHighestCat = CurrentCat;
+					CurrentHighestCount = Category::GetCount(CurrentHighestCat);
+				}
+			}//iter is not selected
+		}//for - iter
+
+		//If case-insensitive search found multiple similar categories, combine them all into a single category object and add the selected vector
+		if(int(CurrentHighestCat.size()) > 1)
+		{
+			Category* newCat = new Category(StringToLower(CurrentHighestCat[0]->GetName()));
+			for(vector<Category*>::iterator iter = CurrentHighestCat.begin(); iter != CurrentHighestCat.end(); ++iter)
+			{
+				newCat->AddItems((*iter)->GetAllItemsMap());
+				(*iter)->SetSelected();
+			}//for - iter
+
+			SelectedCategories.push_back(newCat);	//Add to selected categories
+		}
+		else if (int(CurrentHighestCat.size()) == 1)
+		{
+			SelectedCategories.push_back(CurrentHighestCat[0]);	//Add to selected categories
+			CurrentHighestCat[0]->SetSelected();
+		}
+	}
+	
+	//Reset all selected
+	for(vector<Category*>::iterator iter = SelectedCategories.begin(); iter != SelectedCategories.end(); ++iter)
+		(*iter)->ResetSelected();
+
+	return SelectedCategories;
+
+}//GetMostFrequentCategories
+
+string ItemsContainer::GetMostFrequentCategoriesAsString(int pCount, bool pIsCaseInsensitive, bool pIncludeCount)
+{
+	string s = "";
+	vector<Category*> MostFrequentCategories = GetMostFrequentCategories(pCount, pIsCaseInsensitive);
+	Category* CurrentCat;
+
+	for(vector<Category*>::iterator iter = MostFrequentCategories.begin(); iter != MostFrequentCategories.end(); ++iter)
+	{
+		CurrentCat = (*iter);
+		s += "\n" + CurrentCat->GetName();
+
+		if(pIncludeCount)
+			s += "\tCount: " + ToString(CurrentCat->GetCount());
+	}
+
+	return s;
+}//GetMostFrequentCategoriesAsString

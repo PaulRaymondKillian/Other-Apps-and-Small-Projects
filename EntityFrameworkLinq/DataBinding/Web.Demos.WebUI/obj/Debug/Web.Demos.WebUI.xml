@@ -1,0 +1,353 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Web.Demos.WebUI
+</name>
+</assembly>
+<members>
+<member name="F:Web.Demos.WebUI.TwoWayBindingEditPage.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web.Demos.WebUI.TwoWayBindingEditPage.fvwResource">
+	<summary>
+fvwResource control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web.Demos.WebUI.TwoWayBindingEditPage.odsResourceForEdit">
+	<summary>
+odsResourceForEdit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web.Demos.WebUI.OneWayBindingEditPageExample02.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web.Demos.WebUI.OneWayBindingEditPageExample02.fvwResource">
+	<summary>
+fvwResource control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web.Demos.WebUI.OneWayBindingEditPageExample02.dlTest">
+	<summary>
+dlTest control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web.Demos.WebUI.OneWayBindingEditPageExample02.btnSave">
+	<summary>
+btnSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:Web.Demos.WebUI.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:Web.Demos.WebUI.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:Web.Demos.WebUI.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:Web.Demos.WebUI.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:Web.Demos.WebUI.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="T:Web.Demos.WebUI.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Web.Demos.WebUI.ListEditBindingExample04.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web.Demos.WebUI.ListEditBindingExample04.pnlSearch">
+	<summary>
+pnlSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web.Demos.WebUI.ListEditBindingExample04.txtTitleFilter">
+	<summary>
+txtTitleFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web.Demos.WebUI.ListEditBindingExample04.btnSearch">
+	<summary>
+btnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web.Demos.WebUI.ListEditBindingExample04.lnkOpenInsertWindow">
+	<summary>
+lnkOpenInsertWindow control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web.Demos.WebUI.ListEditBindingExample04.gvwResources">
+	<summary>
+gvwResources control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web.Demos.WebUI.ListEditBindingExample04.fvwEditResource">
+	<summary>
+fvwEditResource control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web.Demos.WebUI.ListEditBindingExample04.odsResources">
+	<summary>
+odsResources control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web.Demos.WebUI.ListEditBindingExample04.odsResourceEdit">
+	<summary>
+odsResourceEdit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web.Demos.WebUI.OneWayBindingEditPageExample01.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web.Demos.WebUI.OneWayBindingEditPageExample01.pnlEditPanel">
+	<summary>
+pnlEditPanel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web.Demos.WebUI.OneWayBindingEditPageExample01.hdnId">
+	<summary>
+hdnId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web.Demos.WebUI.OneWayBindingEditPageExample01.txtTitle">
+	<summary>
+txtTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web.Demos.WebUI.OneWayBindingEditPageExample01.txtAssetNumber">
+	<summary>
+txtAssetNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web.Demos.WebUI.OneWayBindingEditPageExample01.txtPublisher">
+	<summary>
+txtPublisher control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web.Demos.WebUI.OneWayBindingEditPageExample01.lblVersion">
+	<summary>
+lblVersion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web.Demos.WebUI.OneWayBindingEditPageExample01.btnSave">
+	<summary>
+btnSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web.Demos.WebUI.ListPage.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web.Demos.WebUI.ListPage.lboxResources">
+	<summary>
+lboxResources control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web.Demos.WebUI.ListPage.lbtnManualBindingEdit">
+	<summary>
+lbtnManualBindingEdit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web.Demos.WebUI.ListPage.lbtnOneWayBindingEditExample01">
+	<summary>
+lbtnOneWayBindingEditExample01 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web.Demos.WebUI.ListPage.lbtnOneWayBindingEditExample02">
+	<summary>
+lbtnOneWayBindingEditExample02 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web.Demos.WebUI.ListPage.lbtnTwoWayBindingEdit">
+	<summary>
+lbtnTwoWayBindingEdit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web.Demos.WebUI.ManualBindingEditPage.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web.Demos.WebUI.ManualBindingEditPage.pnlEditPanel">
+	<summary>
+pnlEditPanel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web.Demos.WebUI.ManualBindingEditPage.hdnId">
+	<summary>
+hdnId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web.Demos.WebUI.ManualBindingEditPage.txtTitle">
+	<summary>
+txtTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web.Demos.WebUI.ManualBindingEditPage.txtAssetNumber">
+	<summary>
+txtAssetNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web.Demos.WebUI.ManualBindingEditPage.txtPublisher">
+	<summary>
+txtPublisher control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web.Demos.WebUI.ManualBindingEditPage.lblVersion">
+	<summary>
+lblVersion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web.Demos.WebUI.ManualBindingEditPage.btnSave">
+	<summary>
+btnSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:Web.Demos.WebUI.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Web.Demos.WebUI.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Web.Demos.WebUI.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

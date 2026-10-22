@@ -1,0 +1,24 @@
+﻿Build started 2/26/2012 5:56:16 PM.
+     1>Project "C:\Killian Intelligence Systems\LCC_Test\LCC_Test\LCC_Test.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\LCC_Test.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt TestHarness.cpp
+         TestHarness.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Killian Intelligence Systems\LCC_Test\Debug\LCC_Test.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\LCC_Test.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Killian Intelligence Systems\LCC_Test\Debug\LCC_Test.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Killian Intelligence Systems\LCC_Test\Debug\LCC_Test.lib" /MACHINE:X86 Debug\Item.obj
+         Debug\ItemCategory.obj
+         Debug\ItemsContainer.obj
+         Debug\TestHarness.obj
+         LINK : C:\Killian Intelligence Systems\LCC_Test\Debug\LCC_Test.exe not found or not built by the last incremental link; performing full link
+         LCC_Test.vcxproj -> C:\Killian Intelligence Systems\LCC_Test\Debug\LCC_Test.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Killian Intelligence Systems\LCC_Test\Debug\LCC_Test.exe;#1" /manifest Debug\LCC_Test.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\LCC_Test.unsuccessfulbuild".
+         Touching "Debug\LCC_Test.lastbuildstate".
+     1>Done Building Project "C:\Killian Intelligence Systems\LCC_Test\LCC_Test\LCC_Test.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.52

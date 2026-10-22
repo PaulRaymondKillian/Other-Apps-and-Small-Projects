@@ -1,0 +1,7 @@
+C:\Killian Intelligence Systems\WeddingPlaylistManager\MusicPlayerLib\MusicPlayerLib\bin\Debug\MusicPlayerLib.dll
+C:\Killian Intelligence Systems\WeddingPlaylistManager\MusicPlayerLib\MusicPlayerLib\bin\Debug\MusicPlayerLib.pdb
+C:\Killian Intelligence Systems\WeddingPlaylistManager\MusicPlayerLib\MusicPlayerLib\obj\Debug\ResolveAssemblyReference.cache
+C:\Killian Intelligence Systems\WeddingPlaylistManager\MusicPlayerLib\MusicPlayerLib\obj\Debug\MusicPlayerLib.dll
+C:\Killian Intelligence Systems\WeddingPlaylistManager\MusicPlayerLib\MusicPlayerLib\obj\Debug\MusicPlayerLib.pdb
+C:\Killian Intelligence Systems\WeddingPlaylistManager\MusicPlayerLib\MusicPlayerLib\obj\Debug\Interop.WMPLib.dll
+C:\Killian Intelligence Systems\WeddingPlaylistManager\MusicPlayerLib\MusicPlayerLib\obj\Debug\MusicPlayerLib.csproj.ResolveComReference.cache

@@ -1,0 +1,702 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Integrys.Training.Domain
+</name>
+</assembly>
+<members>
+<member name="M:Integrys.Training.Domain.dbDEVCisTEntities.#ctor">
+	<summary>
+ Initializes a new dbDEVCisTEntities object using the connection string found in the 'dbDEVCisTEntities' section of the application configuration file.
+ </summary>
+</member><member name="M:Integrys.Training.Domain.dbDEVCisTEntities.#ctor(System.String)">
+	<summary>
+ Initialize a new dbDEVCisTEntities object.
+ </summary>
+</member><member name="M:Integrys.Training.Domain.dbDEVCisTEntities.#ctor(System.Data.EntityClient.EntityConnection)">
+	<summary>
+ Initialize a new dbDEVCisTEntities object.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.dbDEVCisTEntities.tAddresses">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.dbDEVCisTEntities.Customers">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.dbDEVCisTEntities.tPremises">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.dbDEVCisTEntities.tPremiseServices">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.dbDEVCisTEntities.tPremiseServiceDevices">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.dbDEVCisTEntities.tContracts">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.dbDEVCisTEntities.tContractServicePremiseServices">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:Integrys.Training.Domain.dbDEVCisTEntities.AddTotAddresses(Integrys.Training.Domain.tAddress)">
+	<summary>
+ Deprecated Method for adding a new object to the tAddresses EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:Integrys.Training.Domain.dbDEVCisTEntities.AddToCustomers(Integrys.Training.Domain.Customer)">
+	<summary>
+ Deprecated Method for adding a new object to the Customers EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:Integrys.Training.Domain.dbDEVCisTEntities.AddTotPremises(Integrys.Training.Domain.tPremise)">
+	<summary>
+ Deprecated Method for adding a new object to the tPremises EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:Integrys.Training.Domain.dbDEVCisTEntities.AddTotPremiseServices(Integrys.Training.Domain.tPremiseService)">
+	<summary>
+ Deprecated Method for adding a new object to the tPremiseServices EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:Integrys.Training.Domain.dbDEVCisTEntities.AddTotPremiseServiceDevices(Integrys.Training.Domain.tPremiseServiceDevice)">
+	<summary>
+ Deprecated Method for adding a new object to the tPremiseServiceDevices EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:Integrys.Training.Domain.dbDEVCisTEntities.AddTotContracts(Integrys.Training.Domain.tContract)">
+	<summary>
+ Deprecated Method for adding a new object to the tContracts EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:Integrys.Training.Domain.dbDEVCisTEntities.AddTotContractServicePremiseServices(Integrys.Training.Domain.tContractServicePremiseService)">
+	<summary>
+ Deprecated Method for adding a new object to the tContractServicePremiseServices EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:Integrys.Training.Domain.dbDEVCisTEntities.xspWPSContractsJM110(System.Nullable{System.Int32},System.Nullable{System.Int16},System.String)">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+	<param name="custId">No Metadata Documentation available.</param>
+	<param name="contractSeqNum">No Metadata Documentation available.</param>
+	<param name="dtid">No Metadata Documentation available.</param>
+</member><member name="T:Integrys.Training.Domain.dbDEVCisTEntities">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:Integrys.Training.Domain.Customer.CreateCustomer(System.Int32,System.String,System.String,System.String,System.DateTime,System.String,System.String)">
+	<summary>
+ Create a new Customer object.
+ </summary>
+	<param name="custId">Initial value of the CustId property.</param>
+	<param name="custStatusCd">Initial value of the CustStatusCd property.</param>
+	<param name="custTypeCd">Initial value of the CustTypeCd property.</param>
+	<param name="custFullNm">Initial value of the CustFullNm property.</param>
+	<param name="beginDt">Initial value of the BeginDt property.</param>
+	<param name="sysTxnId">Initial value of the SysTxnId property.</param>
+	<param name="tid">Initial value of the tid property.</param>
+</member><member name="P:Integrys.Training.Domain.Customer.CustId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.Customer.CustStatusCd">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.Customer.CustTypeCd">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.Customer.CustFullNm">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.Customer.BeginDt">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.Customer.CnvDt">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.Customer.FirstNm">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.Customer.MiddleNm">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.Customer.LastNm">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.Customer.NamePrefixTxt">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.Customer.NameSuffixTxt">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.Customer.DoingBusinessAsNm">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.Customer.TaxId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.Customer.SocSecNum">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.Customer.ChngRsnRmkLogId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.Customer.SysTxnId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.Customer.tid">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.Customer.tContracts">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:Integrys.Training.Domain.Customer">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:Integrys.Training.Domain.tAddress.CreatetAddress(System.Int32,System.Byte,System.Byte,System.Byte,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String)">
+	<summary>
+ Create a new tAddress object.
+ </summary>
+	<param name="addressId">Initial value of the AddressId property.</param>
+	<param name="standardAddrFormatFl">Initial value of the StandardAddrFormatFl property.</param>
+	<param name="validFl">Initial value of the ValidFl property.</param>
+	<param name="skipValidationFl">Initial value of the SkipValidationFl property.</param>
+	<param name="houseNum">Initial value of the HouseNum property.</param>
+	<param name="streetDirPrefixCd">Initial value of the StreetDirPrefixCd property.</param>
+	<param name="streetNm">Initial value of the StreetNm property.</param>
+	<param name="streetTypeCd">Initial value of the StreetTypeCd property.</param>
+	<param name="streetDirSuffixCd">Initial value of the StreetDirSuffixCd property.</param>
+	<param name="apartmentTypeCd">Initial value of the ApartmentTypeCd property.</param>
+	<param name="apartmentNum">Initial value of the ApartmentNum property.</param>
+	<param name="cityNm">Initial value of the CityNm property.</param>
+	<param name="stateCd">Initial value of the StateCd property.</param>
+	<param name="postalCd">Initial value of the PostalCd property.</param>
+	<param name="postalExtCd">Initial value of the PostalExtCd property.</param>
+	<param name="countyNm">Initial value of the CountyNm property.</param>
+	<param name="carrierRouteCd">Initial value of the CarrierRouteCd property.</param>
+	<param name="nonStdAddr1Txt">Initial value of the NonStdAddr1Txt property.</param>
+	<param name="nonStdAddr2Txt">Initial value of the NonStdAddr2Txt property.</param>
+	<param name="nonStdAddr3Txt">Initial value of the NonStdAddr3Txt property.</param>
+	<param name="createDt">Initial value of the CreateDt property.</param>
+	<param name="sysTxnId">Initial value of the SysTxnId property.</param>
+	<param name="tid">Initial value of the tid property.</param>
+</member><member name="P:Integrys.Training.Domain.tAddress.AddressId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tAddress.StandardAddrFormatFl">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tAddress.ValidFl">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tAddress.SkipValidationFl">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tAddress.HouseNum">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tAddress.StreetDirPrefixCd">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tAddress.StreetNm">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tAddress.StreetTypeCd">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tAddress.StreetDirSuffixCd">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tAddress.ApartmentTypeCd">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tAddress.ApartmentNum">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tAddress.CityNm">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tAddress.StateCd">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tAddress.PostalCd">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tAddress.PostalExtCd">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tAddress.DelivPointCd">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tAddress.ChkDigitNum">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tAddress.CountyNm">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tAddress.CarrierRouteCd">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tAddress.NonStdAddr1Txt">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tAddress.NonStdAddr2Txt">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tAddress.NonStdAddr3Txt">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tAddress.CreateDt">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tAddress.SysTxnId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tAddress.tid">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tAddress.tPremise">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:Integrys.Training.Domain.tAddress">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:Integrys.Training.Domain.tContract.CreatetContract(System.Int32,System.Int16,System.String,System.DateTime,System.DateTime,System.Int32,System.DateTime,System.Byte,System.Byte,System.String,System.String,System.String,System.String)">
+	<summary>
+ Create a new tContract object.
+ </summary>
+	<param name="custId">Initial value of the CustId property.</param>
+	<param name="contractSeqNum">Initial value of the ContractSeqNum property.</param>
+	<param name="contractStatusCd">Initial value of the ContractStatusCd property.</param>
+	<param name="contractBeginDt">Initial value of the ContractBeginDt property.</param>
+	<param name="contractEndDt">Initial value of the ContractEndDt property.</param>
+	<param name="companyId">Initial value of the CompanyId property.</param>
+	<param name="nextBillDt">Initial value of the NextBillDt property.</param>
+	<param name="billCycleId">Initial value of the BillCycleId property.</param>
+	<param name="outOfBalanceFl">Initial value of the OutOfBalanceFl property.</param>
+	<param name="ctrTypeCd">Initial value of the CtrTypeCd property.</param>
+	<param name="regionCd">Initial value of the RegionCd property.</param>
+	<param name="sysTxnId">Initial value of the SysTxnId property.</param>
+	<param name="tid">Initial value of the tid property.</param>
+</member><member name="P:Integrys.Training.Domain.tContract.CustId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tContract.ContractSeqNum">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tContract.ContractStatusCd">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tContract.ContractBeginDt">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tContract.ContractEndDt">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tContract.CompanyId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tContract.NextBillDt">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tContract.BillCycleId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tContract.OutOfBalanceFl">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tContract.CnvDt">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tContract.BadDebtFl">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tContract.CtrTypeCd">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tContract.RegionCd">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tContract.SysTxnId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tContract.tid">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tContract.Customer">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tContract.CustomerReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tContract.tContractServicePremiseServices">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:Integrys.Training.Domain.tContract">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:Integrys.Training.Domain.tContractServicePremiseService.CreatetContractServicePremiseService(System.Int32,System.Int16,System.Int16,System.Int32,System.Int16,System.String,System.String)">
+	<summary>
+ Create a new tContractServicePremiseService object.
+ </summary>
+	<param name="custId">Initial value of the CustId property.</param>
+	<param name="contractSeqNum">Initial value of the ContractSeqNum property.</param>
+	<param name="serviceSeqNum">Initial value of the ServiceSeqNum property.</param>
+	<param name="premiseId">Initial value of the PremiseId property.</param>
+	<param name="premiseServiceSeqNum">Initial value of the PremiseServiceSeqNum property.</param>
+	<param name="sysTxnId">Initial value of the SysTxnId property.</param>
+	<param name="tid">Initial value of the tid property.</param>
+</member><member name="P:Integrys.Training.Domain.tContractServicePremiseService.CustId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tContractServicePremiseService.ContractSeqNum">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tContractServicePremiseService.ServiceSeqNum">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tContractServicePremiseService.PremiseId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tContractServicePremiseService.PremiseServiceSeqNum">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tContractServicePremiseService.SysTxnId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tContractServicePremiseService.tid">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tContractServicePremiseService.tContract">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tContractServicePremiseService.tContractReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tContractServicePremiseService.tPremise">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tContractServicePremiseService.tPremiseReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:Integrys.Training.Domain.tContractServicePremiseService">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:Integrys.Training.Domain.tPremise.CreatetPremise(System.Int32,System.Int32,System.String,System.Byte,System.String,System.String)">
+	<summary>
+ Create a new tPremise object.
+ </summary>
+	<param name="premiseId">Initial value of the PremiseId property.</param>
+	<param name="addressId">Initial value of the AddressId property.</param>
+	<param name="premiseTypeCd">Initial value of the PremiseTypeCd property.</param>
+	<param name="usesDSTFl">Initial value of the UsesDSTFl property.</param>
+	<param name="sysTxnId">Initial value of the SysTxnId property.</param>
+	<param name="tid">Initial value of the tid property.</param>
+</member><member name="P:Integrys.Training.Domain.tPremise.PremiseId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tPremise.AddressId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tPremise.PremiseTypeCd">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tPremise.CnvDt">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tPremise.RegionCd">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tPremise.UsesDSTFl">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tPremise.SysTxnId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tPremise.tid">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tPremise.tContractServicePremiseServices">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tPremise.tAddress">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tPremise.tAddressReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:Integrys.Training.Domain.tPremise">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:Integrys.Training.Domain.tPremiseService.CreatetPremiseService(System.Int32,System.Int16,System.String,System.String,System.Byte,System.DateTime,System.DateTime,System.String,System.String)">
+	<summary>
+ Create a new tPremiseService object.
+ </summary>
+	<param name="premiseId">Initial value of the PremiseId property.</param>
+	<param name="premiseServiceSeqNum">Initial value of the PremiseServiceSeqNum property.</param>
+	<param name="premiseServiceStatusCd">Initial value of the PremiseServiceStatusCd property.</param>
+	<param name="premiseServiceTypeCd">Initial value of the PremiseServiceTypeCd property.</param>
+	<param name="hasDeviceFl">Initial value of the HasDeviceFl property.</param>
+	<param name="beginDt">Initial value of the BeginDt property.</param>
+	<param name="endDt">Initial value of the EndDt property.</param>
+	<param name="sysTxnId">Initial value of the SysTxnId property.</param>
+	<param name="tid">Initial value of the tid property.</param>
+</member><member name="P:Integrys.Training.Domain.tPremiseService.PremiseId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tPremiseService.PremiseServiceSeqNum">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tPremiseService.PremiseServiceStatusCd">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tPremiseService.LockTypeCd">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tPremiseService.PremiseServiceTypeCd">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tPremiseService.HasDeviceFl">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tPremiseService.BeginDt">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tPremiseService.EndDt">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tPremiseService.SysTxnId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tPremiseService.tid">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:Integrys.Training.Domain.tPremiseService">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:Integrys.Training.Domain.tPremiseServiceDevice.CreatetPremiseServiceDevice(System.Int32,System.Int16,System.DateTime,System.Int32,System.DateTime,System.String,System.String)">
+	<summary>
+ Create a new tPremiseServiceDevice object.
+ </summary>
+	<param name="premiseId">Initial value of the PremiseId property.</param>
+	<param name="premiseServiceSeqNum">Initial value of the PremiseServiceSeqNum property.</param>
+	<param name="installDm">Initial value of the InstallDm property.</param>
+	<param name="deviceId">Initial value of the DeviceId property.</param>
+	<param name="removeDm">Initial value of the RemoveDm property.</param>
+	<param name="sysTxnId">Initial value of the SysTxnId property.</param>
+	<param name="tid">Initial value of the tid property.</param>
+</member><member name="P:Integrys.Training.Domain.tPremiseServiceDevice.PremiseId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tPremiseServiceDevice.PremiseServiceSeqNum">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tPremiseServiceDevice.InstallDm">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tPremiseServiceDevice.DeviceId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tPremiseServiceDevice.RemoveReasonCd">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tPremiseServiceDevice.RemoveDm">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tPremiseServiceDevice.SysTxnId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.tPremiseServiceDevice.tid">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:Integrys.Training.Domain.tPremiseServiceDevice">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:Integrys.Training.Domain.xspWPSContractsJM110_Result.CreatexspWPSContractsJM110_Result(System.Int32,System.Int16,System.String,System.Int32,System.String,System.String,System.Int32)">
+	<summary>
+ Create a new xspWPSContractsJM110_Result object.
+ </summary>
+	<param name="custId">Initial value of the CustId property.</param>
+	<param name="ctrSeqNum">Initial value of the CtrSeqNum property.</param>
+	<param name="custFullNm">Initial value of the CustFullNm property.</param>
+	<param name="compId">Initial value of the CompId property.</param>
+	<param name="ctrTypeCd">Initial value of the CtrTypeCd property.</param>
+	<param name="ctrStatCd">Initial value of the CtrStatCd property.</param>
+	<param name="premiseId">Initial value of the PremiseId property.</param>
+</member><member name="P:Integrys.Training.Domain.xspWPSContractsJM110_Result.CustId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.xspWPSContractsJM110_Result.CtrSeqNum">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.xspWPSContractsJM110_Result.CustFullNm">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.xspWPSContractsJM110_Result.TaxId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.xspWPSContractsJM110_Result.SocSecNum">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.xspWPSContractsJM110_Result.CompId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.xspWPSContractsJM110_Result.CtrTypeCd">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.xspWPSContractsJM110_Result.CtrStatCd">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.xspWPSContractsJM110_Result.PremiseId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.xspWPSContractsJM110_Result.FirstNm">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.xspWPSContractsJM110_Result.MiddleNm">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.xspWPSContractsJM110_Result.LastNm">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:Integrys.Training.Domain.xspWPSContractsJM110_Result">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Integrys.Training.Domain.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Integrys.Training.Domain.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Integrys.Training.Domain.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

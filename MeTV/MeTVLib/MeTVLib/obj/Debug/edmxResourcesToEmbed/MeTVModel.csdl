@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MeTVdbModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="MeTVdbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Episodes" EntityType="MeTVdbModel.Episode" />
+    <EntitySet Name="Genres" EntityType="MeTVdbModel.Genre" />
+    <EntitySet Name="Shows" EntityType="MeTVdbModel.Show" />
+    <AssociationSet Name="FK__tEpisode__Show__35BCFE0A" Association="MeTVdbModel.FK__tEpisode__Show__35BCFE0A">
+      <End Role="tShow" EntitySet="Shows" />
+      <End Role="tEpisode" EntitySet="Episodes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tShow__Genre__34C8D9D1" Association="MeTVdbModel.FK__tShow__Genre__34C8D9D1">
+      <End Role="tGenre" EntitySet="Genres" />
+      <End Role="tShow" EntitySet="Shows" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Episode">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Show" Type="Int32" Nullable="false" />
+    <Property Name="Season" Type="Int32" />
+    <Property Name="SeasonEpNum" Type="Int32" />
+    <Property Name="Description" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="VideoFilePath" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ImageFilePath" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="RecentPlays" Type="Int32" Nullable="false" />
+    <Property Name="TotalPlays" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tShow" Relationship="MeTVdbModel.FK__tEpisode__Show__35BCFE0A" FromRole="tEpisode" ToRole="tShow" />
+  </EntityType>
+  <EntityType Name="Genre">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="tShows" Relationship="MeTVdbModel.FK__tShow__Genre__34C8D9D1" FromRole="tGenre" ToRole="tShow" />
+  </EntityType>
+  <EntityType Name="Show">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Genre" Type="Int32" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="tEpisodes" Relationship="MeTVdbModel.FK__tEpisode__Show__35BCFE0A" FromRole="tShow" ToRole="tEpisode" />
+    <NavigationProperty Name="tGenre" Relationship="MeTVdbModel.FK__tShow__Genre__34C8D9D1" FromRole="tShow" ToRole="tGenre" />
+  </EntityType>
+  <Association Name="FK__tEpisode__Show__35BCFE0A">
+    <End Role="tShow" Type="MeTVdbModel.Show" Multiplicity="1" />
+    <End Role="tEpisode" Type="MeTVdbModel.Episode" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tShow">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="tEpisode">
+        <PropertyRef Name="Show" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tShow__Genre__34C8D9D1">
+    <End Role="tGenre" Type="MeTVdbModel.Genre" Multiplicity="1" />
+    <End Role="tShow" Type="MeTVdbModel.Show" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tGenre">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="tShow">
+        <PropertyRef Name="Genre" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

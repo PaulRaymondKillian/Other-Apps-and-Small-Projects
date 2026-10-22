@@ -1,0 +1,14 @@
+C:\Killian Intelligence Systems\MeTV\MeTVTestHarness\bin\Debug\MeTVTestHarness.exe
+C:\Killian Intelligence Systems\MeTV\MeTVTestHarness\bin\Debug\MeTVTestHarness.pdb
+C:\Killian Intelligence Systems\MeTV\MeTVTestHarness\bin\Debug\MeTVTestHarness.xml
+C:\Killian Intelligence Systems\MeTV\MeTVTestHarness\bin\Debug\MeTVLib.dll
+C:\Killian Intelligence Systems\MeTV\MeTVTestHarness\bin\Debug\MeTVLib.pdb
+C:\Killian Intelligence Systems\MeTV\MeTVTestHarness\bin\Debug\MeTVLib.xml
+C:\Killian Intelligence Systems\MeTV\MeTVTestHarness\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Killian Intelligence Systems\MeTV\MeTVTestHarness\obj\x86\Debug\MeTVTestHarness.Resources.resources
+C:\Killian Intelligence Systems\MeTV\MeTVTestHarness\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Killian Intelligence Systems\MeTV\MeTVTestHarness\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Killian Intelligence Systems\MeTV\MeTVTestHarness\obj\x86\Debug\MeTVTestHarness.exe
+C:\Killian Intelligence Systems\MeTV\MeTVTestHarness\obj\x86\Debug\MeTVTestHarness.xml
+C:\Killian Intelligence Systems\MeTV\MeTVTestHarness\obj\x86\Debug\MeTVTestHarness.pdb
+C:\Killian Intelligence Systems\MeTV\MeTVTestHarness\bin\Debug\MeTVTestHarness.exe.config

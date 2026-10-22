@@ -1,0 +1,35 @@
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Grid_Learner\Traffic_Grid_Learner\bin\Debug\Traffic_Grid_Learner.exe
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Grid_Learner\Traffic_Grid_Learner\bin\Debug\Traffic_Grid_Learner.pdb
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Grid_Learner\Traffic_Grid_Learner\bin\Debug\Traffic_Grid_Learner.xml
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Grid_Learner\Traffic_Grid_Learner\bin\Debug\Traffic_Grid_Controller.dll
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Grid_Learner\Traffic_Grid_Learner\bin\Debug\Traffic_Grid_Library.dll
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Grid_Learner\Traffic_Grid_Learner\bin\Debug\Traffic_Grid_Library.pdb
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Grid_Learner\Traffic_Grid_Learner\bin\Debug\Traffic_Grid_Library.xml
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Grid_Learner\Traffic_Grid_Learner\bin\Debug\Traffic_Grid_Controller.pdb
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Grid_Learner\Traffic_Grid_Learner\bin\Debug\Traffic_Grid_Controller.xml
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Grid_Learner\Traffic_Grid_Learner\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Grid_Learner\Traffic_Grid_Learner\obj\Debug\Traffic_Grid_Learner.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Grid_Learner\Traffic_Grid_Learner\obj\Debug\Traffic_Grid_Learner.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Grid_Learner\Traffic_Grid_Learner\obj\Debug\Traffic_Grid_Learner.exe
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Grid_Learner\Traffic_Grid_Learner\obj\Debug\Traffic_Grid_Learner.xml
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Grid_Learner\Traffic_Grid_Learner\obj\Debug\Traffic_Grid_Learner.pdb
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Grid_Learner\Traffic_Grid_Learner\obj\Debug\Traffic_Grid_Learner.Form1.resources
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Grid_Learner\Traffic_Grid_Learner\bin\Debug\csgl.dll
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Grid_Learner\Traffic_Grid_Learner\bin\Debug\csgl.pdb
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Learner\obj\Debug\Traffic_Grid_Learner.exe
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Learner\obj\Debug\Traffic_Grid_Learner.xml
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Learner\obj\Debug\Traffic_Grid_Learner.pdb
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Learner\bin\Debug\Traffic_Grid_Learner.exe
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Learner\bin\Debug\Traffic_Grid_Learner.pdb
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Learner\bin\Debug\Traffic_Grid_Learner.xml
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Learner\bin\Debug\Traffic_Grid_Controller.dll
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Learner\bin\Debug\Traffic_Grid_Library.dll
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Learner\bin\Debug\Traffic_Grid_Library.pdb
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Learner\bin\Debug\Traffic_Grid_Library.xml
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Learner\bin\Debug\csgl.pdb
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Learner\bin\Debug\Traffic_Grid_Controller.pdb
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Learner\bin\Debug\Traffic_Grid_Controller.xml
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Learner\obj\Debug\ResolveAssemblyReference.cache
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Learner\obj\Debug\Traffic_Grid_Learner.Form1.resources
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Learner\obj\Debug\Traffic_Grid_Learner.Resources.resources
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Learner\obj\Debug\Traffic_Grid_Learner.vbproj.GenerateResource.Cache

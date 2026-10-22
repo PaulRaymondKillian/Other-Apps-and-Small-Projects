@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BeerInfo>
+  <Beer Name="Beer1">
+    <Company>Miller Brewing Company</Company>
+    <Style>Style1</Style>
+    <Look>5</Look>
+    <Smell>1</Smell>
+    <Taste>6</Taste>
+    <Feel>5</Feel>
+    <Overall>4.25</Overall>
+    <Image>Images\Beer3.jpg</Image>
+    <Comments>These are some comments.</Comments>
+  </Beer>
+  <Beer Name="Beer2">
+    <Style>Style2</Style>
+    <Company>Budweiser</Company>
+    <Look>5</Look>
+    <Smell>2</Smell>
+    <Taste>9</Taste>
+    <Feel>3</Feel>
+    <Overall>4.75</Overall>
+    <Image>Images\beer.jpg</Image>
+    <Comments>Here are some comments for another beer.</Comments>
+  </Beer>
+  <Beer Name="Beer3">
+    <Style>Style3</Style>
+    <Company>Miller Brewing Company</Company>
+    <Look>6</Look>
+    <Smell>5</Smell>
+    <Taste>5</Taste>
+    <Feel>4</Feel>
+    <Overall>5</Overall>
+    <Image>Images\Beer2.jpg</Image>
+    <Comments>Here are some comments for Beer3. Here are some comments for Beer3. Here are some comments for Beer3. Here are some comments for Beer3. Here are some comments for Beer3. Here are some comments for Beer3. Here are some comments for Beer3. Here are some comments for Beer3. Here are some comments for Beer3. Here are some comments for Beer3. </Comments>
+  </Beer>
+  <Beer Name="Beer4">
+    <Style>Style2</Style>
+    <Company>Beer Company</Company>
+    <Look>9</Look>
+    <Smell>9</Smell>
+    <Taste>9</Taste>
+    <Feel>9</Feel>
+    <Overall>9</Overall>
+    <Image>Images\Beer4.bmp</Image>
+    <Comments></Comments>
+  </Beer>
+</BeerInfo>

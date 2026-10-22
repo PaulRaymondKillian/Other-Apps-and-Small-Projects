@@ -1,0 +1,16 @@
+delete from tSongs
+go
+delete from tAlbums
+go
+delete from tArtists
+go
+delete from tGenres
+go
+
+select * from tGenres
+go
+select * from tArtists
+go
+select * from tAlbums
+go
+select * from tSongs

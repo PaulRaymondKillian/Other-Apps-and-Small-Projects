@@ -1,0 +1,11 @@
+C:\Killian Intelligence Systems\ItemOrganizer\ItemOrganizer\ItemOrganizer\bin\Debug\ItemOrganizer.exe
+C:\Killian Intelligence Systems\ItemOrganizer\ItemOrganizer\ItemOrganizer\bin\Debug\ItemOrganizer.pdb
+C:\Killian Intelligence Systems\ItemOrganizer\ItemOrganizer\ItemOrganizer\bin\Debug\ItemOrganizer.xml
+C:\Killian Intelligence Systems\ItemOrganizer\ItemOrganizer\ItemOrganizer\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Killian Intelligence Systems\ItemOrganizer\ItemOrganizer\ItemOrganizer\obj\x86\Debug\ItemOrganizer.Form1.resources
+C:\Killian Intelligence Systems\ItemOrganizer\ItemOrganizer\ItemOrganizer\obj\x86\Debug\ItemOrganizer.Resources.resources
+C:\Killian Intelligence Systems\ItemOrganizer\ItemOrganizer\ItemOrganizer\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Killian Intelligence Systems\ItemOrganizer\ItemOrganizer\ItemOrganizer\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Killian Intelligence Systems\ItemOrganizer\ItemOrganizer\ItemOrganizer\obj\x86\Debug\ItemOrganizer.exe
+C:\Killian Intelligence Systems\ItemOrganizer\ItemOrganizer\ItemOrganizer\obj\x86\Debug\ItemOrganizer.xml
+C:\Killian Intelligence Systems\ItemOrganizer\ItemOrganizer\ItemOrganizer\obj\x86\Debug\ItemOrganizer.pdb

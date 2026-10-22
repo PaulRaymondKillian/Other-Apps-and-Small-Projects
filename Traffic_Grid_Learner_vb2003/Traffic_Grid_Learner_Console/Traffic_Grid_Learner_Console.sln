@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Traffic_Grid_Learner_Console", "Traffic_Grid_Learner_Console\Traffic_Grid_Learner_Console.vbproj", "{B207D5D5-D8F3-45B2-A581-E785F4D9803F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Traffic_Grid_Library", "Traffic_Grid_Library\Traffic_Grid_Library.vbproj", "{78EC659B-2E1A-4CA1-B9A7-564DAA54398A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Traffic_Grid_Controller", "Traffic_Grid_Controller\Traffic_Grid_Controller.vbproj", "{64D12955-2B12-4C62-94C8-31E80A28A38D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B207D5D5-D8F3-45B2-A581-E785F4D9803F}.Debug.ActiveCfg = Debug|.NET
+		{B207D5D5-D8F3-45B2-A581-E785F4D9803F}.Debug.Build.0 = Debug|.NET
+		{B207D5D5-D8F3-45B2-A581-E785F4D9803F}.Release.ActiveCfg = Release|.NET
+		{B207D5D5-D8F3-45B2-A581-E785F4D9803F}.Release.Build.0 = Release|.NET
+		{78EC659B-2E1A-4CA1-B9A7-564DAA54398A}.Debug.ActiveCfg = Debug|.NET
+		{78EC659B-2E1A-4CA1-B9A7-564DAA54398A}.Debug.Build.0 = Debug|.NET
+		{78EC659B-2E1A-4CA1-B9A7-564DAA54398A}.Release.ActiveCfg = Release|.NET
+		{78EC659B-2E1A-4CA1-B9A7-564DAA54398A}.Release.Build.0 = Release|.NET
+		{64D12955-2B12-4C62-94C8-31E80A28A38D}.Debug.ActiveCfg = Debug|.NET
+		{64D12955-2B12-4C62-94C8-31E80A28A38D}.Debug.Build.0 = Debug|.NET
+		{64D12955-2B12-4C62-94C8-31E80A28A38D}.Release.ActiveCfg = Release|.NET
+		{64D12955-2B12-4C62-94C8-31E80A28A38D}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

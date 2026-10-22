@@ -1,0 +1,18 @@
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Grid_Learner\Traffic_Grid_Library\bin\Debug\Traffic_Grid_Library.dll
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Grid_Learner\Traffic_Grid_Library\bin\Debug\Traffic_Grid_Library.pdb
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Grid_Learner\Traffic_Grid_Library\bin\Debug\Traffic_Grid_Library.xml
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Grid_Learner\Traffic_Grid_Library\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Grid_Learner\Traffic_Grid_Library\obj\Debug\Traffic_Grid_Library.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Grid_Learner\Traffic_Grid_Library\obj\Debug\Traffic_Grid_Library.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Grid_Learner\Traffic_Grid_Library\obj\Debug\Traffic_Grid_Library.dll
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Grid_Learner\Traffic_Grid_Library\obj\Debug\Traffic_Grid_Library.xml
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Grid_Learner\Traffic_Grid_Library\obj\Debug\Traffic_Grid_Library.pdb
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Library\bin\Debug\Traffic_Grid_Library.dll
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Library\bin\Debug\Traffic_Grid_Library.pdb
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Library\bin\Debug\Traffic_Grid_Library.xml
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Library\obj\Debug\ResolveAssemblyReference.cache
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Library\obj\Debug\Traffic_Grid_Library.Resources.resources
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Library\obj\Debug\Traffic_Grid_Library.vbproj.GenerateResource.Cache
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Library\obj\Debug\Traffic_Grid_Library.dll
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Library\obj\Debug\Traffic_Grid_Library.xml
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Library\obj\Debug\Traffic_Grid_Library.pdb

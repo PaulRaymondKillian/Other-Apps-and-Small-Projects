@@ -1,0 +1,131 @@
+8/24/2011 9:07:01 PM: BeerMe Started; BeerData Successfully Loaded.
+8/24/2011 9:07:03 PM: Beer Me Closing
+8/24/2011 9:15:23 PM: BeerMe Started; BeerData Successfully Loaded.
+8/24/2011 9:15:26 PM: Beer Me Closing
+8/24/2011 9:15:35 PM: BeerMe Started; BeerData Successfully Loaded.
+8/24/2011 9:15:37 PM: Beer Me Closing
+8/24/2011 9:16:12 PM: BeerMe Started; BeerData Successfully Loaded.
+8/24/2011 9:16:13 PM: Beer Me Closing
+8/25/2011 7:43:37 PM: BeerMe Started; BeerData Successfully Loaded.
+8/25/2011 7:43:44 PM: BeerMe Closing
+8/25/2011 7:43:47 PM: BeerMe Started; BeerData Successfully Loaded.
+8/25/2011 7:43:59 PM: BeerMe Closing
+8/26/2011 6:57:44 PM: BeerMe Started; BeerData Successfully Loaded.
+8/26/2011 6:57:46 PM: BeerMe Closing
+8/26/2011 11:31:53 PM: BeerMe Started; BeerData Successfully Loaded.
+8/26/2011 11:31:55 PM: BeerMe Closing
+8/26/2011 11:54:14 PM: BeerMe Started; BeerData Successfully Loaded.
+8/26/2011 11:54:29 PM: Class: BeerMeLib, Method: GetAllBeers(void), Error: Object reference not set to an instance of an object.
+8/26/2011 11:54:31 PM: Class: BeerMeLib, Method: GetAllBeers(void), Error: Object reference not set to an instance of an object.
+8/26/2011 11:54:34 PM: Class: Form1, Method: RefreshData(void), Error:  Error refreshing beer data.; InnerException: Object reference not set to an instance of an object.
+8/26/2011 11:54:42 PM: BeerMe Closing
+8/26/2011 11:54:59 PM: BeerMe Started; BeerData Successfully Loaded.
+8/26/2011 11:55:07 PM: Class: BeerMeLib, Method: GetAllBeers(void), Error: Object reference not set to an instance of an object.
+8/26/2011 11:55:08 PM: Class: BeerMeLib, Method: GetAllBeers(void), Error: Object reference not set to an instance of an object.
+8/26/2011 11:55:10 PM: Class: Form1, Method: RefreshData(void), Error:  Error refreshing beer data.; InnerException: Object reference not set to an instance of an object.
+8/26/2011 11:55:11 PM: BeerMe Closing
+8/26/2011 11:56:26 PM: BeerMe Started; BeerData Successfully Loaded.
+8/26/2011 11:57:00 PM: BeerMe Closing
+8/26/2011 11:58:34 PM: BeerMe Started; BeerData Successfully Loaded.
+8/26/2011 11:58:48 PM: BeerMe Closing
+8/26/2011 11:59:43 PM: BeerMe Started; BeerData Successfully Loaded.
+8/26/2011 11:59:56 PM: BeerMe Closing
+8/27/2011 12:01:36 AM: BeerMe Started; BeerData Successfully Loaded.
+8/27/2011 12:01:49 AM: BeerMe Closing
+8/27/2011 12:06:11 AM: BeerMe Started; BeerData Successfully Loaded.
+8/27/2011 12:06:21 AM: BeerMe Closing
+8/27/2011 12:09:14 AM: BeerMe Started; BeerData Successfully Loaded.
+8/27/2011 12:09:25 AM: BeerMe Closing
+8/27/2011 12:09:37 AM: BeerMe Started; BeerData Successfully Loaded.
+8/27/2011 12:10:07 AM: BeerMe Started; BeerData Successfully Loaded.
+8/27/2011 12:10:16 AM: BeerMe Closing
+8/27/2011 12:10:22 AM: BeerMe Started; BeerData Successfully Loaded.
+8/27/2011 12:11:30 AM: BeerMe Started; BeerData Successfully Loaded.
+8/27/2011 12:11:47 AM: BeerMe Closing
+8/27/2011 12:12:42 AM: BeerMe Started; BeerData Successfully Loaded.
+8/27/2011 12:12:53 AM: BeerMe Closing
+8/27/2011 12:13:07 AM: BeerMe Started; BeerData Successfully Loaded.
+8/27/2011 12:13:29 AM: BeerMe Closing
+8/27/2011 12:13:39 AM: BeerMe Started; BeerData Successfully Loaded.
+8/27/2011 12:13:49 AM: BeerMe Closing
+8/27/2011 12:13:58 AM: BeerMe Started; BeerData Successfully Loaded.
+8/27/2011 12:14:02 AM: BeerMe Closing
+8/27/2011 12:14:08 AM: BeerMe Started; BeerData Successfully Loaded.
+8/27/2011 12:14:15 AM: BeerMe Closing
+8/27/2011 12:14:22 AM: BeerMe Started; BeerData Successfully Loaded.
+8/27/2011 12:14:30 AM: BeerMe Closing
+8/27/2011 12:14:59 AM: BeerMe Started; BeerData Successfully Loaded.
+8/27/2011 12:15:12 AM: BeerMe Closing
+8/27/2011 12:15:27 AM: BeerMe Started; BeerData Successfully Loaded.
+8/27/2011 12:15:35 AM: BeerMe Closing
+8/27/2011 12:15:41 AM: BeerMe Started; BeerData Successfully Loaded.
+8/27/2011 12:15:47 AM: BeerMe Closing
+8/27/2011 12:15:53 AM: BeerMe Started; BeerData Successfully Loaded.
+8/27/2011 12:16:00 AM: BeerMe Closing
+8/27/2011 12:16:08 AM: BeerMe Started; BeerData Successfully Loaded.
+8/27/2011 12:16:24 AM: BeerMe Closing
+8/27/2011 12:17:01 AM: BeerMe Started; BeerData Successfully Loaded.
+8/27/2011 12:17:10 AM: BeerMe Closing
+8/27/2011 12:17:16 AM: BeerMe Started; BeerData Successfully Loaded.
+8/27/2011 12:17:22 AM: BeerMe Closing
+8/27/2011 12:17:29 AM: BeerMe Started; BeerData Successfully Loaded.
+8/27/2011 12:17:33 AM: BeerMe Closing
+8/27/2011 12:27:06 PM: BeerMe Started; BeerData Successfully Loaded.
+8/27/2011 12:27:13 PM: Class: BeerMeLib, Method: GetAllBeers(void), Error: Object reference not set to an instance of an object.
+8/27/2011 12:27:14 PM: Class: Form1, Method: LoadBeerData(pFilePath, Optional pLoggingEnabled), Error:  Error loading beer data.; InnerException: Class: BeerMeLib, Method: GetAllBeers(void), Error: Object reference not set to an instance of an object.
+8/27/2011 12:27:17 PM: BeerMe Closing
+8/28/2011 3:17:19 PM: BeerMe Started; BeerData Successfully Loaded.
+8/28/2011 3:17:25 PM: Class: BeerMeLib, Method: GetAllBeers(void), Error: Object reference not set to an instance of an object.
+8/28/2011 3:17:25 PM: Class: Form1, Method: LoadBeerData(pFilePath, Optional pLoggingEnabled); InnerException: Class: BeerMeLib, Method: GetAllBeers(void), Error: Object reference not set to an instance of an object.
+8/28/2011 3:17:48 PM: Class: Form1, Method: OpenNewDataFile(void), Error:  Error loading data file. Please try opening a different file.; InnerException: Class: Form1, Method: LoadBeerData(pFilePath, Optional pLoggingEnabled); InnerException: Class: BeerMeLib, Method: GetAllBeers(void), Error: Object reference not set to an instance of an object.
+8/28/2011 3:17:57 PM: Class: BeerMeLib, Method: GetAllBeers(void), Error: Object reference not set to an instance of an object.
+8/28/2011 3:17:58 PM: Class: Form1, Method: LoadBeerData(pFilePath, Optional pLoggingEnabled); InnerException: Class: BeerMeLib, Method: GetAllBeers(void), Error: Object reference not set to an instance of an object.
+8/28/2011 3:18:05 PM: Class: Form1, Method: OpenNewDataFile(void), Error:  Error loading data file. Please try opening a different file.; InnerException: Class: Form1, Method: LoadBeerData(pFilePath, Optional pLoggingEnabled); InnerException: Class: BeerMeLib, Method: GetAllBeers(void), Error: Object reference not set to an instance of an object.
+8/28/2011 3:18:06 PM: Class: BeerMeLib, Method: GetAllBeers(void), Error: Object reference not set to an instance of an object.
+8/28/2011 3:18:07 PM: Class: Form1, Method: LoadBeerData(pFilePath, Optional pLoggingEnabled); InnerException: Class: BeerMeLib, Method: GetAllBeers(void), Error: Object reference not set to an instance of an object.
+8/28/2011 3:18:08 PM: Class: Form1, Method: OpenNewDataFile(void), Error:  Error loading data file. Please try opening a different file.; InnerException: Class: Form1, Method: LoadBeerData(pFilePath, Optional pLoggingEnabled); InnerException: Class: BeerMeLib, Method: GetAllBeers(void), Error: Object reference not set to an instance of an object.
+8/28/2011 3:18:20 PM: Class: BeerMeLib, Method: GetAllBeers(void), Error: Object reference not set to an instance of an object.
+8/28/2011 3:18:20 PM: Class: Form1, Method: LoadBeerData(pFilePath, Optional pLoggingEnabled); InnerException: Class: BeerMeLib, Method: GetAllBeers(void), Error: Object reference not set to an instance of an object.
+8/28/2011 3:18:21 PM: Class: Form1, Method: OpenNewDataFile(void), Error:  Error loading data file. Please try opening a different file.; InnerException: Class: Form1, Method: LoadBeerData(pFilePath, Optional pLoggingEnabled); InnerException: Class: BeerMeLib, Method: GetAllBeers(void), Error: Object reference not set to an instance of an object.
+8/28/2011 3:18:25 PM: BeerMe Closing
+8/28/2011 3:33:06 PM: Class: BeerMeLib, Method: New(pXMLFilePath, Optional pLoggingEnabled), Error: Value cannot be null.
+Parameter name: inputUri
+8/28/2011 3:33:06 PM: Class: Form1, Method: LoadBeerData(pFilePath, Optional pLoggingEnabled); InnerException: Class: BeerMeLib, Method: New(pXMLFilePath, Optional pLoggingEnabled), Error: Value cannot be null.
+Parameter name: inputUri
+8/28/2011 3:33:11 PM: Class: Form1, Method: Form1_Load, Error:  Error loading application.; InnerException: Class: Form1, Method: LoadBeerData(pFilePath, Optional pLoggingEnabled); InnerException: Class: BeerMeLib, Method: New(pXMLFilePath, Optional pLoggingEnabled), Error: Value cannot be null.
+Parameter name: inputUri
+8/28/2011 3:34:01 PM: Class: BeerMeLib, Method: New(pXMLFilePath, Optional pLoggingEnabled), Error: Value cannot be null.
+Parameter name: inputUri
+8/28/2011 3:34:01 PM: Class: Form1, Method: LoadBeerData(pFilePath, Optional pLoggingEnabled); InnerException: Class: BeerMeLib, Method: New(pXMLFilePath, Optional pLoggingEnabled), Error: Value cannot be null.
+Parameter name: inputUri
+8/28/2011 3:34:10 PM: Class: Form1, Method: Form1_Load, Error:  Error loading application.; InnerException: Class: Form1, Method: LoadBeerData(pFilePath, Optional pLoggingEnabled); InnerException: Class: BeerMeLib, Method: New(pXMLFilePath, Optional pLoggingEnabled), Error: Value cannot be null.
+Parameter name: inputUri
+8/28/2011 3:41:59 PM: Class: BeerMeLib, Method: GetAllBeers(void), Error: Object reference not set to an instance of an object.
+8/28/2011 3:41:59 PM: Class: Form1, Method: LoadBeerData(pFilePath, Optional pLoggingEnabled); InnerException: Class: BeerMeLib, Method: GetAllBeers(void), Error: Object reference not set to an instance of an object.
+8/28/2011 3:42:01 PM: Class: Form1, Method: OpenNewDataFile(void), Error:  Error loading data file. Please try opening a different file.; InnerException: Class: Form1, Method: LoadBeerData(pFilePath, Optional pLoggingEnabled); InnerException: Class: BeerMeLib, Method: GetAllBeers(void), Error: Object reference not set to an instance of an object.
+8/28/2011 3:42:06 PM: Class: BeerMeLib, Method: GetAllBeers(void), Error: Object reference not set to an instance of an object.
+8/28/2011 3:42:06 PM: Class: Form1, Method: LoadBeerData(pFilePath, Optional pLoggingEnabled); InnerException: Class: BeerMeLib, Method: GetAllBeers(void), Error: Object reference not set to an instance of an object.
+8/28/2011 3:42:14 PM: Class: Form1, Method: OpenNewDataFile(void), Error:  Error loading data file. Please try opening a different file.; InnerException: Class: Form1, Method: LoadBeerData(pFilePath, Optional pLoggingEnabled); InnerException: Class: BeerMeLib, Method: GetAllBeers(void), Error: Object reference not set to an instance of an object.
+8/28/2011 3:42:16 PM: BeerMe Started; BeerData Successfully Loaded.
+8/28/2011 3:42:29 PM: Class: BeerMeLib, Method: GetAllBeers(void), Error: Object reference not set to an instance of an object.
+8/28/2011 3:42:29 PM: Class: Form1, Method: LoadBeerData(pFilePath, Optional pLoggingEnabled); InnerException: Class: BeerMeLib, Method: GetAllBeers(void), Error: Object reference not set to an instance of an object.
+8/28/2011 3:42:32 PM: Class: Form1, Method: OpenNewDataFile(void), Error:  Error loading data file. Please try opening a different file.; InnerException: Class: Form1, Method: LoadBeerData(pFilePath, Optional pLoggingEnabled); InnerException: Class: BeerMeLib, Method: GetAllBeers(void), Error: Object reference not set to an instance of an object.
+8/28/2011 3:42:37 PM: Class: BeerMeLib, Method: GetAllBeers(void), Error: Object reference not set to an instance of an object.
+8/28/2011 3:42:37 PM: Class: Form1, Method: LoadBeerData(pFilePath, Optional pLoggingEnabled); InnerException: Class: BeerMeLib, Method: GetAllBeers(void), Error: Object reference not set to an instance of an object.
+8/28/2011 3:42:39 PM: Class: Form1, Method: OpenNewDataFile(void), Error:  Error loading data file. Please try opening a different file.; InnerException: Class: Form1, Method: LoadBeerData(pFilePath, Optional pLoggingEnabled); InnerException: Class: BeerMeLib, Method: GetAllBeers(void), Error: Object reference not set to an instance of an object.
+8/28/2011 3:42:41 PM: BeerMe Started; BeerData Successfully Loaded.
+8/28/2011 3:55:58 PM: Class: Form1, Method: QueryBeers(void), Error:  Error querying beer data.; InnerException: Input string was not in a correct format.
+8/28/2011 3:56:03 PM: BeerMe Started; BeerData Successfully Loaded.
+8/28/2011 4:01:18 PM: BeerMe Started; BeerData Successfully Loaded.
+8/28/2011 4:02:01 PM: BeerMe Started; BeerData Successfully Loaded.
+8/28/2011 4:02:43 PM: BeerMe Started; BeerData Successfully Loaded.
+8/28/2011 4:04:29 PM: BeerMe Started; BeerData Successfully Loaded.
+8/28/2011 4:04:49 PM: BeerMe Started; BeerData Successfully Loaded.
+8/28/2011 4:05:11 PM: BeerMe Started; BeerData Successfully Loaded.
+8/28/2011 4:13:29 PM: BeerMe Started; BeerData Successfully Loaded.
+8/28/2011 4:18:15 PM: BeerMe Started; BeerData Successfully Loaded.
+8/28/2011 4:22:40 PM: BeerMe Started; BeerData Successfully Loaded.
+8/28/2011 4:24:37 PM: BeerMe Started; BeerData Successfully Loaded.
+8/29/2011 7:10:56 PM: BeerMe Started; BeerData Successfully Loaded.
+8/29/2011 7:12:02 PM: Class: BeerMeLib, Method: New(pXMLFilePath, Optional pLoggingEnabled), Error: Could not find file 'C:\Killian Intelligence Systems\BeerMe\BeerMe\BeerMe\bin\Debug\BeerData.xml'.
+8/29/2011 7:12:46 PM: BeerMe Started; BeerData Successfully Loaded.

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MeTVdbModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="MeTVdbModelStoreContainer">
+    <EntitySet Name="tEpisode" EntityType="MeTVdbModel.Store.tEpisode" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tGenre" EntityType="MeTVdbModel.Store.tGenre" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tShow" EntityType="MeTVdbModel.Store.tShow" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK__tEpisode__Show__35BCFE0A" Association="MeTVdbModel.Store.FK__tEpisode__Show__35BCFE0A">
+      <End Role="tShow" EntitySet="tShow" />
+      <End Role="tEpisode" EntitySet="tEpisode" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tShow__Genre__34C8D9D1" Association="MeTVdbModel.Store.FK__tShow__Genre__34C8D9D1">
+      <End Role="tGenre" EntitySet="tGenre" />
+      <End Role="tShow" EntitySet="tShow" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="tEpisode">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="Show" Type="int" Nullable="false" />
+    <Property Name="Season" Type="int" />
+    <Property Name="SeasonEpNum" Type="int" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="VideoFilePath" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ImageFilePath" Type="nvarchar(max)" />
+    <Property Name="RecentPlays" Type="int" Nullable="false" />
+    <Property Name="TotalPlays" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tGenre">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="Description" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="tShow">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="Genre" Type="int" Nullable="false" />
+    <Property Name="Description" Type="nvarchar(max)" />
+  </EntityType>
+  <Association Name="FK__tEpisode__Show__35BCFE0A">
+    <End Role="tShow" Type="MeTVdbModel.Store.tShow" Multiplicity="1" />
+    <End Role="tEpisode" Type="MeTVdbModel.Store.tEpisode" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tShow">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="tEpisode">
+        <PropertyRef Name="Show" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tShow__Genre__34C8D9D1">
+    <End Role="tGenre" Type="MeTVdbModel.Store.tGenre" Multiplicity="1" />
+    <End Role="tShow" Type="MeTVdbModel.Store.tShow" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tGenre">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="tShow">
+        <PropertyRef Name="Genre" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

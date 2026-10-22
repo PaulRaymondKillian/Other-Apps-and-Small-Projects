@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BeerInfo>
+  <Beer Name="Beer2">
+    <Company>Company2</Company>
+    <Style>Banannanans!</Style>
+    <Look>5</Look>
+    <Smell>2</Smell>
+    <Taste>8</Taste>
+    <Feel>1</Feel>
+    <Overall>6.632</Overall>
+    <Image>Beer3.jpg</Image>
+    <Comments> Thesasdfasdfads</Comments>
+  </Beer>
+  <Beer Name="Beer3">
+    <Company>Company3</Company>
+    <Style>Style4</Style>
+    <Look>4</Look>
+    <Smell>7</Smell>
+    <Taste>9</Taste>
+    <Feel>9</Feel>
+    <Overall>6.632</Overall>
+    <Image>Beer4.bmp</Image>
+    <Comments> These Are dgfasgpoipppppppppppppppppkjashdlfkjhadfasdnmf askjdhf jkadsh fjdsh tgsu su stge cinnebts sectuib dud tiy jbiw tgat&gt;&gt;&gt;&gt;???asdfkasdkfdkfjadskjfhdhfklajsdhlfkjashdfjdjasd!!</Comments>
+  </Beer>
+  <Beer Name="A New Awesome Beer!">
+    <Company>Company4</Company>
+    <Style>Some Style</Style>
+    <Look>5</Look>
+    <Smell>2</Smell>
+    <Taste>6</Taste>
+    <Feel>4</Feel>
+    <Overall>6.632</Overall>
+    <Image>C:\Killian Intelligence Systems\BeerMe\BeerMe\BeerMe\bin\Debug\Beer3.jpg</Image>
+    <Comments>Here are some comments</Comments>
+  </Beer>
+  <Beer Name="BeerName">
+    <Style>StyleName</Style>
+    <Company>CompanyName</Company>
+    <Look>1</Look>
+    <Smell>2</Smell>
+    <Taste>5</Taste>
+    <Feel>9</Feel>
+    <Overall>4.25</Overall>
+    <Image>C:\Killian Intelligence Systems\BeerMe\BeerMe\BeerMe\bin\Debug\Beer4.bmp</Image>
+    <Comments>These are comments</Comments>
+  </Beer>
+  <Beer Name="a">
+    <Style>a</Style>
+    <Company>a</Company>
+    <Look>0</Look>
+    <Smell>0</Smell>
+    <Taste>0</Taste>
+    <Feel>0</Feel>
+    <Overall>0</Overall>
+    <Image></Image>
+    <Comments></Comments>
+  </Beer>
+  <Beer Name="b">
+    <Style>b</Style>
+    <Company>b</Company>
+    <Look>0</Look>
+    <Smell>0</Smell>
+    <Taste>0</Taste>
+    <Feel>0</Feel>
+    <Overall>0</Overall>
+    <Image></Image>
+    <Comments></Comments>
+  </Beer>
+</BeerInfo>

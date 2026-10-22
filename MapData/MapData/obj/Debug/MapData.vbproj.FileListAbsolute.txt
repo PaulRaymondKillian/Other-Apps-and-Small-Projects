@@ -1,0 +1,20 @@
+C:\Source\_MISC\MapData\MapData\bin\Debug\MapData.dll
+C:\Source\_MISC\MapData\MapData\bin\Debug\MapData.pdb
+C:\Source\_MISC\MapData\MapData\bin\Debug\MapData.xml
+C:\Source\_MISC\MapData\MapData\obj\Debug\ResolveAssemblyReference.cache
+C:\Source\_MISC\MapData\MapData\obj\Debug\MapData.Resources.resources
+C:\Source\_MISC\MapData\MapData\obj\Debug\GenerateResource.read.1.tlog
+C:\Source\_MISC\MapData\MapData\obj\Debug\GenerateResource.write.1.tlog
+C:\Source\_MISC\MapData\MapData\obj\Debug\MapData.dll
+C:\Source\_MISC\MapData\MapData\obj\Debug\MapData.xml
+C:\Source\_MISC\MapData\MapData\obj\Debug\MapData.pdb
+C:\Killian Intelligence Systems\MapData\MapData\bin\Debug\MapData.dll
+C:\Killian Intelligence Systems\MapData\MapData\bin\Debug\MapData.pdb
+C:\Killian Intelligence Systems\MapData\MapData\bin\Debug\MapData.xml
+C:\Killian Intelligence Systems\MapData\MapData\obj\Debug\ResolveAssemblyReference.cache
+C:\Killian Intelligence Systems\MapData\MapData\obj\Debug\MapData.Resources.resources
+C:\Killian Intelligence Systems\MapData\MapData\obj\Debug\ResGen.read.1.tlog
+C:\Killian Intelligence Systems\MapData\MapData\obj\Debug\ResGen.write.1.tlog
+C:\Killian Intelligence Systems\MapData\MapData\obj\Debug\MapData.dll
+C:\Killian Intelligence Systems\MapData\MapData\obj\Debug\MapData.xml
+C:\Killian Intelligence Systems\MapData\MapData\obj\Debug\MapData.pdb

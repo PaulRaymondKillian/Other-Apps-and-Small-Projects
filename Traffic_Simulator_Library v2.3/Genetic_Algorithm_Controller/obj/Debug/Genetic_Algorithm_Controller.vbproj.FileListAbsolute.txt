@@ -1,0 +1,9 @@
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library v2.2\Genetic_Algorithm_Controller\bin\Debug\Genetic_Algorithm_Controller.dll
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library v2.2\Genetic_Algorithm_Controller\bin\Debug\Genetic_Algorithm_Controller.pdb
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library v2.2\Genetic_Algorithm_Controller\bin\Debug\Genetic_Algorithm_Controller.xml
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library v2.2\Genetic_Algorithm_Controller\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library v2.2\Genetic_Algorithm_Controller\obj\Debug\Genetic_Algorithm_Controller.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library v2.2\Genetic_Algorithm_Controller\obj\Debug\Genetic_Algorithm_Controller.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library v2.2\Genetic_Algorithm_Controller\obj\Debug\Genetic_Algorithm_Controller.dll
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library v2.2\Genetic_Algorithm_Controller\obj\Debug\Genetic_Algorithm_Controller.xml
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library v2.2\Genetic_Algorithm_Controller\obj\Debug\Genetic_Algorithm_Controller.pdb

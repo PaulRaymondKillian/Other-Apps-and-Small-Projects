@@ -1,0 +1,22 @@
+C:\Source\_MISC\Integrys.Training.Web\Integrys.Training.Domain\bin\Debug\Integrys.Training.Domain.dll.config
+C:\Source\_MISC\Integrys.Training.Web\Integrys.Training.Domain\bin\Debug\Integrys.Training.Domain.dll
+C:\Source\_MISC\Integrys.Training.Web\Integrys.Training.Domain\bin\Debug\Integrys.Training.Domain.pdb
+C:\Source\_MISC\Integrys.Training.Web\Integrys.Training.Domain\bin\Debug\Integrys.Training.Domain.xml
+C:\Source\_MISC\Integrys.Training.Web\Integrys.Training.Domain\obj\Debug\ResolveAssemblyReference.cache
+C:\Source\_MISC\Integrys.Training.Web\Integrys.Training.Domain\obj\Debug\Integrys.Training.Domain.Resources.resources
+C:\Source\_MISC\Integrys.Training.Web\Integrys.Training.Domain\obj\Debug\GenerateResource.read.1.tlog
+C:\Source\_MISC\Integrys.Training.Web\Integrys.Training.Domain\obj\Debug\GenerateResource.write.1.tlog
+C:\Source\_MISC\Integrys.Training.Web\Integrys.Training.Domain\obj\Debug\Integrys.Training.Domain.dll
+C:\Source\_MISC\Integrys.Training.Web\Integrys.Training.Domain\obj\Debug\Integrys.Training.Domain.xml
+C:\Source\_MISC\Integrys.Training.Web\Integrys.Training.Domain\obj\Debug\Integrys.Training.Domain.pdb
+C:\Killian Intelligence Systems\EntityFrameworkLinq\Integrys.Training.Web\Integrys.Training.Domain\bin\Debug\Integrys.Training.Domain.dll.config
+C:\Killian Intelligence Systems\EntityFrameworkLinq\Integrys.Training.Web\Integrys.Training.Domain\bin\Debug\Integrys.Training.Domain.dll
+C:\Killian Intelligence Systems\EntityFrameworkLinq\Integrys.Training.Web\Integrys.Training.Domain\bin\Debug\Integrys.Training.Domain.pdb
+C:\Killian Intelligence Systems\EntityFrameworkLinq\Integrys.Training.Web\Integrys.Training.Domain\bin\Debug\Integrys.Training.Domain.xml
+C:\Killian Intelligence Systems\EntityFrameworkLinq\Integrys.Training.Web\Integrys.Training.Domain\obj\Debug\ResolveAssemblyReference.cache
+C:\Killian Intelligence Systems\EntityFrameworkLinq\Integrys.Training.Web\Integrys.Training.Domain\obj\Debug\Integrys.Training.Domain.Resources.resources
+C:\Killian Intelligence Systems\EntityFrameworkLinq\Integrys.Training.Web\Integrys.Training.Domain\obj\Debug\GenerateResource.read.1.tlog
+C:\Killian Intelligence Systems\EntityFrameworkLinq\Integrys.Training.Web\Integrys.Training.Domain\obj\Debug\GenerateResource.write.1.tlog
+C:\Killian Intelligence Systems\EntityFrameworkLinq\Integrys.Training.Web\Integrys.Training.Domain\obj\Debug\Integrys.Training.Domain.dll
+C:\Killian Intelligence Systems\EntityFrameworkLinq\Integrys.Training.Web\Integrys.Training.Domain\obj\Debug\Integrys.Training.Domain.xml
+C:\Killian Intelligence Systems\EntityFrameworkLinq\Integrys.Training.Web\Integrys.Training.Domain\obj\Debug\Integrys.Training.Domain.pdb

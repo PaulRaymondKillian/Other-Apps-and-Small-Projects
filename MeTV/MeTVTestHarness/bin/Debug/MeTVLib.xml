@@ -1,0 +1,191 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MeTVLib
+</name>
+</assembly>
+<members>
+<member name="M:MeTVLib.MeTVdbEntities.#ctor">
+	<summary>
+ Initializes a new MeTVdbEntities object using the connection string found in the 'MeTVdbEntities' section of the application configuration file.
+ </summary>
+</member><member name="M:MeTVLib.MeTVdbEntities.#ctor(System.String)">
+	<summary>
+ Initialize a new MeTVdbEntities object.
+ </summary>
+</member><member name="M:MeTVLib.MeTVdbEntities.#ctor(System.Data.EntityClient.EntityConnection)">
+	<summary>
+ Initialize a new MeTVdbEntities object.
+ </summary>
+</member><member name="P:MeTVLib.MeTVdbEntities.Episodes">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:MeTVLib.MeTVdbEntities.Genres">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:MeTVLib.MeTVdbEntities.Shows">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:MeTVLib.MeTVdbEntities.AddToEpisodes(MeTVLib.Episode)">
+	<summary>
+ Deprecated Method for adding a new object to the Episodes EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:MeTVLib.MeTVdbEntities.AddToGenres(MeTVLib.Genre)">
+	<summary>
+ Deprecated Method for adding a new object to the Genres EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:MeTVLib.MeTVdbEntities.AddToShows(MeTVLib.Show)">
+	<summary>
+ Deprecated Method for adding a new object to the Shows EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="T:MeTVLib.MeTVdbEntities">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:MeTVLib.Episode.CreateEpisode(System.Int32,System.String,System.Int32,System.String,System.Int32,System.Int32)">
+	<summary>
+ Create a new Episode object.
+ </summary>
+	<param name="id">Initial value of the ID property.</param>
+	<param name="name">Initial value of the Name property.</param>
+	<param name="show">Initial value of the Show property.</param>
+	<param name="videoFilePath">Initial value of the VideoFilePath property.</param>
+	<param name="recentPlays">Initial value of the RecentPlays property.</param>
+	<param name="totalPlays">Initial value of the TotalPlays property.</param>
+</member><member name="P:MeTVLib.Episode.ID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:MeTVLib.Episode.Name">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:MeTVLib.Episode.Show">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:MeTVLib.Episode.Season">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:MeTVLib.Episode.SeasonEpNum">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:MeTVLib.Episode.Description">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:MeTVLib.Episode.VideoFilePath">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:MeTVLib.Episode.ImageFilePath">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:MeTVLib.Episode.RecentPlays">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:MeTVLib.Episode.TotalPlays">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:MeTVLib.Episode.tShow">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:MeTVLib.Episode.tShowReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:MeTVLib.Episode">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:MeTVLib.Genre.CreateGenre(System.Int32,System.String)">
+	<summary>
+ Create a new Genre object.
+ </summary>
+	<param name="id">Initial value of the ID property.</param>
+	<param name="name">Initial value of the Name property.</param>
+</member><member name="P:MeTVLib.Genre.ID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:MeTVLib.Genre.Name">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:MeTVLib.Genre.Description">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:MeTVLib.Genre.tShows">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:MeTVLib.Genre">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:MeTVLib.Show.CreateShow(System.Int32,System.String,System.Int32)">
+	<summary>
+ Create a new Show object.
+ </summary>
+	<param name="id">Initial value of the ID property.</param>
+	<param name="name">Initial value of the Name property.</param>
+	<param name="genre">Initial value of the Genre property.</param>
+</member><member name="P:MeTVLib.Show.ID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:MeTVLib.Show.Name">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:MeTVLib.Show.Genre">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:MeTVLib.Show.Description">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:MeTVLib.Show.tEpisodes">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:MeTVLib.Show.tGenre">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:MeTVLib.Show.tGenreReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:MeTVLib.Show">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:MeTVLib.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:MeTVLib.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:MeTVLib.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

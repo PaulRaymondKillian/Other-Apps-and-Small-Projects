@@ -1,0 +1,9 @@
+C:\Users\Administrator\Desktop\Projects\ASPNET.Course\Web.Demos\Web.Demos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Projects\ASPNET.Course\Web.Demos\Web.Demos\obj\Debug\Web.Demos.Resources.resources
+C:\Users\Administrator\Desktop\Projects\ASPNET.Course\Web.Demos\Web.Demos\obj\Debug\Web.Demos.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Projects\ASPNET.Course\Web.Demos\Web.Demos\bin\Web.Demos.dll
+C:\Users\Administrator\Desktop\Projects\ASPNET.Course\Web.Demos\Web.Demos\bin\Web.Demos.pdb
+C:\Users\Administrator\Desktop\Projects\ASPNET.Course\Web.Demos\Web.Demos\bin\Web.Demos.xml
+C:\Users\Administrator\Desktop\Projects\ASPNET.Course\Web.Demos\Web.Demos\obj\Debug\Web.Demos.dll
+C:\Users\Administrator\Desktop\Projects\ASPNET.Course\Web.Demos\Web.Demos\obj\Debug\Web.Demos.xml
+C:\Users\Administrator\Desktop\Projects\ASPNET.Course\Web.Demos\Web.Demos\obj\Debug\Web.Demos.pdb

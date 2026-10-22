@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Web.Demos.WebUI.ResourceDS">
+    <Position X="1.25" Y="7.75" Width="7.5" />
+    <Members>
+      <Field Name="_list" Hidden="true" />
+      <Field Name="_maxItemCount" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AARIAEEAACAAAgAAAAAAIAABICGAAAAAQAAAAAQAAAA=</HashCode>
+      <FileName>DataSources\ResourceDS.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Demos.WebUI.Resource">
+    <Position X="6" Y="3.25" Width="2.25" />
+    <Members>
+      <Field Name="_assetNumber" Hidden="true" />
+      <Field Name="_datePublished" Hidden="true" />
+      <Field Name="_editMode" Hidden="true" />
+      <Field Name="_id" Hidden="true" />
+      <Field Name="_publisher" Hidden="true" />
+      <Field Name="_resourceType" Hidden="true" />
+      <Field Name="_title" Hidden="true" />
+      <Field Name="_version" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>IAAGAAAAEIAAIEAADABAQAIAEAAAAAAACAAABAAQAAA=</HashCode>
+      <FileName>ViewModel\Resource.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Web.UI.WebControls.ListItem">
+    <Position X="1.25" Y="2.25" Width="3" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Web.UI.WebControls.ObjectDataSource">
+    <Position X="9.5" Y="1" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

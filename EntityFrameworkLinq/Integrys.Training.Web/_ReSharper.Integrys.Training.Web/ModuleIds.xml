@@ -1,0 +1,4 @@
+<Modules>
+  <Module PersistentId="3891E886-D150-4776-8E11-651315C18198" ModuleId="Integrys.Training.Domain" />
+  <Module PersistentId="CC01FCBF-EE83-4F2E-B1E2-389D88B51632" ModuleId="Integrys.Training.Web" />
+</Modules>

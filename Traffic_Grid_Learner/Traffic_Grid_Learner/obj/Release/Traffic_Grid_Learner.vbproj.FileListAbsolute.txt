@@ -1,0 +1,16 @@
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Learner\bin\Release\Traffic_Grid_Learner.exe
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Learner\bin\Release\Traffic_Grid_Learner.pdb
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Learner\bin\Release\Traffic_Grid_Learner.xml
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Learner\bin\Release\Traffic_Grid_Controller.dll
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Learner\bin\Release\Traffic_Grid_Library.dll
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Learner\bin\Release\Traffic_Grid_Library.pdb
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Learner\bin\Release\Traffic_Grid_Library.xml
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Learner\bin\Release\Traffic_Grid_Controller.pdb
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Learner\bin\Release\Traffic_Grid_Controller.xml
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Learner\obj\Release\ResolveAssemblyReference.cache
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Learner\obj\Release\Traffic_Grid_Learner.Form1.resources
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Learner\obj\Release\Traffic_Grid_Learner.Resources.resources
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Learner\obj\Release\Traffic_Grid_Learner.vbproj.GenerateResource.Cache
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Learner\obj\Release\Traffic_Grid_Learner.exe
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Learner\obj\Release\Traffic_Grid_Learner.xml
+G:\_Artificial Neural Networks\_Old\Traffic_Grid_Learner\Traffic_Grid_Learner\obj\Release\Traffic_Grid_Learner.pdb

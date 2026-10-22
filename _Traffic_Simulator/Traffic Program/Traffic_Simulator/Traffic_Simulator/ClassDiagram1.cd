@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Traffic_Simulator.Car" Collapsed="true">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAUAgAAAAKAAAAgAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Car.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Traffic_Simulator.EWStreet" Collapsed="true">
+    <Position X="1.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAABAAAAAAAAAAAAAEAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EWStreet.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Traffic_Simulator.FourWayStop" Collapsed="true">
+    <Position X="16" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FourWayStop.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Traffic_Simulator.Grass" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAABAAAAAAAAAAAAAEAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Grass.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Traffic_Simulator.Intersection" Collapsed="true">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEAAAFAAAAAAAAAAAAAEAABAAAAAAAAABAAIARAAAA=</HashCode>
+      <FileName>Intersection.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Traffic_Simulator.NSStreet" Collapsed="true">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAABAAAAAAAAAAAAAEAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NSStreet.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Traffic_Simulator.TerminalEast" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAgAEAAAAAAAAkAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TerminalEast.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Traffic_Simulator.TerminalNorth" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAgAEAAAAAAAAkAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TerminalNorth.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Traffic_Simulator.TerminalSouth" Collapsed="true">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAEAAAAEAAAkAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TerminalSouth.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Traffic_Simulator.TerminalWest" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAEAAAAAAABkAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TerminalWest.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Traffic_Simulator.TrafficBlock" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIEAIABAAABAAFAEABBBFIQBAADAAAAQAAAAIAQAABQ=</HashCode>
+      <FileName>TrafficBlock.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Traffic_Simulator.TrafficDisplay" Collapsed="true">
+    <Position X="14.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TrafficDisplay.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Traffic_Simulator.TrafficGrid" Collapsed="true">
+    <Position X="16" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>LDPy/3/f8wiZ758BKRDOv89BTAIQAAAA+wwIAAAAAAA=</HashCode>
+      <FileName>TrafficGrid.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Traffic_Simulator.My.MySettings" Collapsed="true">
+    <Position X="17.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Module Name="Traffic_Simulator.Module1" Collapsed="true">
+    <Position X="14.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Module1.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Traffic_Simulator.My.Resources.Resources" Collapsed="true">
+    <Position X="17.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Traffic_Simulator.My.MySettingsProperty" Collapsed="true">
+    <Position X="16" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

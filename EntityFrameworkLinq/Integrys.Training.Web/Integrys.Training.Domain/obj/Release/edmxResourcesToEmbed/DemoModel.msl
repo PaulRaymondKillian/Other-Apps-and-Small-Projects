@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dbDEVCisTModelStoreContainer" CdmEntityContainer="dbDEVCisTEntities">
+    <EntitySetMapping Name="tAddresses">
+      <EntityTypeMapping TypeName="dbDEVCisTModel.tAddress">
+        <MappingFragment StoreEntitySet="tAddress">
+          <ScalarProperty Name="AddressId" ColumnName="AddressId" />
+          <ScalarProperty Name="StandardAddrFormatFl" ColumnName="StandardAddrFormatFl" />
+          <ScalarProperty Name="ValidFl" ColumnName="ValidFl" />
+          <ScalarProperty Name="SkipValidationFl" ColumnName="SkipValidationFl" />
+          <ScalarProperty Name="HouseNum" ColumnName="HouseNum" />
+          <ScalarProperty Name="StreetDirPrefixCd" ColumnName="StreetDirPrefixCd" />
+          <ScalarProperty Name="StreetNm" ColumnName="StreetNm" />
+          <ScalarProperty Name="StreetTypeCd" ColumnName="StreetTypeCd" />
+          <ScalarProperty Name="StreetDirSuffixCd" ColumnName="StreetDirSuffixCd" />
+          <ScalarProperty Name="ApartmentTypeCd" ColumnName="ApartmentTypeCd" />
+          <ScalarProperty Name="ApartmentNum" ColumnName="ApartmentNum" />
+          <ScalarProperty Name="CityNm" ColumnName="CityNm" />
+          <ScalarProperty Name="StateCd" ColumnName="StateCd" />
+          <ScalarProperty Name="PostalCd" ColumnName="PostalCd" />
+          <ScalarProperty Name="PostalExtCd" ColumnName="PostalExtCd" />
+          <ScalarProperty Name="DelivPointCd" ColumnName="DelivPointCd" />
+          <ScalarProperty Name="ChkDigitNum" ColumnName="ChkDigitNum" />
+          <ScalarProperty Name="CountyNm" ColumnName="CountyNm" />
+          <ScalarProperty Name="CarrierRouteCd" ColumnName="CarrierRouteCd" />
+          <ScalarProperty Name="NonStdAddr1Txt" ColumnName="NonStdAddr1Txt" />
+          <ScalarProperty Name="NonStdAddr2Txt" ColumnName="NonStdAddr2Txt" />
+          <ScalarProperty Name="NonStdAddr3Txt" ColumnName="NonStdAddr3Txt" />
+          <ScalarProperty Name="CreateDt" ColumnName="CreateDt" />
+          <ScalarProperty Name="SysTxnId" ColumnName="SysTxnId" />
+          <ScalarProperty Name="tid" ColumnName="tid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="dbDEVCisTModel.Customer">
+        <MappingFragment StoreEntitySet="tCustomer">
+          <ScalarProperty Name="CustId" ColumnName="CustId" />
+          <ScalarProperty Name="CustStatusCd" ColumnName="CustStatusCd" />
+          <ScalarProperty Name="CustTypeCd" ColumnName="CustTypeCd" />
+          <ScalarProperty Name="CustFullNm" ColumnName="CustFullNm" />
+          <ScalarProperty Name="BeginDt" ColumnName="BeginDt" />
+          <ScalarProperty Name="CnvDt" ColumnName="CnvDt" />
+          <ScalarProperty Name="FirstNm" ColumnName="FirstNm" />
+          <ScalarProperty Name="MiddleNm" ColumnName="MiddleNm" />
+          <ScalarProperty Name="LastNm" ColumnName="LastNm" />
+          <ScalarProperty Name="NamePrefixTxt" ColumnName="NamePrefixTxt" />
+          <ScalarProperty Name="NameSuffixTxt" ColumnName="NameSuffixTxt" />
+          <ScalarProperty Name="DoingBusinessAsNm" ColumnName="DoingBusinessAsNm" />
+          <ScalarProperty Name="TaxId" ColumnName="TaxId" />
+          <ScalarProperty Name="SocSecNum" ColumnName="SocSecNum" />
+          <ScalarProperty Name="ChngRsnRmkLogId" ColumnName="ChngRsnRmkLogId" />
+          <ScalarProperty Name="SysTxnId" ColumnName="SysTxnId" />
+          <ScalarProperty Name="tid" ColumnName="tid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tPremises">
+      <EntityTypeMapping TypeName="dbDEVCisTModel.tPremise">
+        <MappingFragment StoreEntitySet="tPremise">
+          <ScalarProperty Name="PremiseId" ColumnName="PremiseId" />
+          <ScalarProperty Name="AddressId" ColumnName="AddressId" />
+          <ScalarProperty Name="PremiseTypeCd" ColumnName="PremiseTypeCd" />
+          <ScalarProperty Name="CnvDt" ColumnName="CnvDt" />
+          <ScalarProperty Name="RegionCd" ColumnName="RegionCd" />
+          <ScalarProperty Name="UsesDSTFl" ColumnName="UsesDSTFl" />
+          <ScalarProperty Name="SysTxnId" ColumnName="SysTxnId" />
+          <ScalarProperty Name="tid" ColumnName="tid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tPremiseServices">
+      <EntityTypeMapping TypeName="dbDEVCisTModel.tPremiseService">
+        <MappingFragment StoreEntitySet="tPremiseService">
+          <ScalarProperty Name="PremiseId" ColumnName="PremiseId" />
+          <ScalarProperty Name="PremiseServiceSeqNum" ColumnName="PremiseServiceSeqNum" />
+          <ScalarProperty Name="PremiseServiceStatusCd" ColumnName="PremiseServiceStatusCd" />
+          <ScalarProperty Name="LockTypeCd" ColumnName="LockTypeCd" />
+          <ScalarProperty Name="PremiseServiceTypeCd" ColumnName="PremiseServiceTypeCd" />
+          <ScalarProperty Name="HasDeviceFl" ColumnName="HasDeviceFl" />
+          <ScalarProperty Name="BeginDt" ColumnName="BeginDt" />
+          <ScalarProperty Name="EndDt" ColumnName="EndDt" />
+          <ScalarProperty Name="SysTxnId" ColumnName="SysTxnId" />
+          <ScalarProperty Name="tid" ColumnName="tid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tPremiseServiceDevices">
+      <EntityTypeMapping TypeName="dbDEVCisTModel.tPremiseServiceDevice">
+        <MappingFragment StoreEntitySet="tPremiseServiceDevice">
+          <ScalarProperty Name="PremiseId" ColumnName="PremiseId" />
+          <ScalarProperty Name="PremiseServiceSeqNum" ColumnName="PremiseServiceSeqNum" />
+          <ScalarProperty Name="InstallDm" ColumnName="InstallDm" />
+          <ScalarProperty Name="DeviceId" ColumnName="DeviceId" />
+          <ScalarProperty Name="RemoveReasonCd" ColumnName="RemoveReasonCd" />
+          <ScalarProperty Name="RemoveDm" ColumnName="RemoveDm" />
+          <ScalarProperty Name="SysTxnId" ColumnName="SysTxnId" />
+          <ScalarProperty Name="tid" ColumnName="tid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tContracts">
+      <EntityTypeMapping TypeName="dbDEVCisTModel.tContract">
+        <MappingFragment StoreEntitySet="tContract">
+          <ScalarProperty Name="tid" ColumnName="tid" />
+          <ScalarProperty Name="SysTxnId" ColumnName="SysTxnId" />
+          <ScalarProperty Name="RegionCd" ColumnName="RegionCd" />
+          <ScalarProperty Name="CtrTypeCd" ColumnName="CtrTypeCd" />
+          <ScalarProperty Name="BadDebtFl" ColumnName="BadDebtFl" />
+          <ScalarProperty Name="CnvDt" ColumnName="CnvDt" />
+          <ScalarProperty Name="OutOfBalanceFl" ColumnName="OutOfBalanceFl" />
+          <ScalarProperty Name="BillCycleId" ColumnName="BillCycleId" />
+          <ScalarProperty Name="NextBillDt" ColumnName="NextBillDt" />
+          <ScalarProperty Name="CompanyId" ColumnName="CompanyId" />
+          <ScalarProperty Name="ContractEndDt" ColumnName="ContractEndDt" />
+          <ScalarProperty Name="ContractBeginDt" ColumnName="ContractBeginDt" />
+          <ScalarProperty Name="ContractStatusCd" ColumnName="ContractStatusCd" />
+          <ScalarProperty Name="ContractSeqNum" ColumnName="ContractSeqNum" />
+          <ScalarProperty Name="CustId" ColumnName="CustId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tContractServicePremiseServices">
+      <EntityTypeMapping TypeName="dbDEVCisTModel.tContractServicePremiseService">
+        <MappingFragment StoreEntitySet="tContractServicePremiseService">
+          <ScalarProperty Name="tid" ColumnName="tid" />
+          <ScalarProperty Name="SysTxnId" ColumnName="SysTxnId" />
+          <ScalarProperty Name="PremiseServiceSeqNum" ColumnName="PremiseServiceSeqNum" />
+          <ScalarProperty Name="PremiseId" ColumnName="PremiseId" />
+          <ScalarProperty Name="ServiceSeqNum" ColumnName="ServiceSeqNum" />
+          <ScalarProperty Name="ContractSeqNum" ColumnName="ContractSeqNum" />
+          <ScalarProperty Name="CustId" ColumnName="CustId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="xspWPSContractsJM110" FunctionName="dbDEVCisTModel.Store.xspWPSContractJM110">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="dbDEVCisTModel.xspWPSContractsJM110_Result">
+          <ScalarProperty Name="CustId" ColumnName="CustId" />
+          <ScalarProperty Name="CtrSeqNum" ColumnName="CtrSeqNum" />
+          <ScalarProperty Name="CustFullNm" ColumnName="CustFullNm" />
+          <ScalarProperty Name="TaxId" ColumnName="TaxId" />
+          <ScalarProperty Name="SocSecNum" ColumnName="SocSecNum" />
+          <ScalarProperty Name="CompId" ColumnName="CompId" />
+          <ScalarProperty Name="CtrTypeCd" ColumnName="CtrTypeCd" />
+          <ScalarProperty Name="CtrStatCd" ColumnName="CtrStatCd" />
+          <ScalarProperty Name="PremiseId" ColumnName="PremiseId" />
+          <ScalarProperty Name="FirstNm" ColumnName="FirstNm" />
+          <ScalarProperty Name="MiddleNm" ColumnName="MiddleNm" />
+          <ScalarProperty Name="LastNm" ColumnName="LastNm" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

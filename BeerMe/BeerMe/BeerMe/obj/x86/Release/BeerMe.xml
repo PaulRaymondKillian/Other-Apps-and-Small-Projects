@@ -1,0 +1,105 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BeerMe
+</name>
+</assembly>
+<members>
+<member name="T:BeerMe.frmEditBeer">
+	<summary>
+ Author: Paul Killian
+ Contact: PaulKillian@DecodedCortex.com
+ Website: www.DecodedCortex.com
+ 
+ Description: This class handles the Windows Form to edit an existing beer in the BeerMe Linq Data Object
+ </summary>
+	<remarks>
+ This application may be modified from its original work as long as credit to the original developer is given
+ and the resulting application or code derived is not used for profit or other commercial purposes without 
+ written consent from the original developer and Decoded Cortex. Please do not remove these header tags. 
+ </remarks>
+</member><member name="T:BeerMe.frmImage">
+	<summary>
+ Author: Paul Killian
+ Contact: PaulKillian@DecodedCortex.com
+ Website: www.DecodedCortex.com
+ 
+ Class: frmImage
+ Description: This class handles the Windows Form that contains the selected Beer Images.
+ </summary>
+	<remarks>
+ This application may be modified from its original work as long as credit to the original developer is given
+ and the resulting application or code derived is not used for profit or other commercial purposes without 
+ written consent from the original developer and Decoded Cortex. Please do not remove these header tags. 
+ </remarks>
+</member><member name="T:BeerMe.Beer">
+	<summary>
+ Author: Paul Killian
+ Contact: PaulKillian@DecodedCortex.com
+ Website: www.DecodedCortex.com
+ 
+ Class: BeerMeLib
+ Description: This class handles the linq data object controls and interfaces that manage the XML database of beer information
+ </summary>
+	<remarks>
+ This application may be modified from its original work as long as credit to the original developer is given
+ and the resulting application or code derived is not used for profit or other commercial purposes without 
+ written consent from the original developer and Decoded Cortex. Please do not remove these header tags. 
+ </remarks>
+</member><member name="T:BeerMe.frmAbout">
+	<summary>
+ Author: Paul Killian
+ Contact: PaulKillian@DecodedCortex.com
+ Website: www.DecodedCortex.com
+ 
+ Description: This class handles the Windows About Form
+ </summary>
+	<remarks>
+ This application may be modified from its original work as long as credit to the original developer is given
+ and the resulting application or code derived is not used for profit or other commercial purposes without 
+ written consent from the original developer and Decoded Cortex. Please do not remove these header tags. 
+ </remarks>
+</member><member name="T:BeerMe.frmAddBeer">
+	<summary>
+ Author: Paul Killian
+ Contact: PaulKillian@DecodedCortex.com
+ Website: www.DecodedCortex.com
+ 
+ Description: This class handles the Windows Form that enables a user to add a beer item to the Linq Data Object
+ </summary>
+	<remarks>
+ This application may be modified from its original work as long as credit to the original developer is given
+ and the resulting application or code derived is not used for profit or other commercial purposes without 
+ written consent from the original developer and Decoded Cortex. Please do not remove these header tags. 
+ </remarks>
+</member><member name="T:BeerMe.Form1">
+	<summary>
+ Author: Paul Killian
+ Contact: PaulKillian@DecodedCortex.com
+ Website: www.DecodedCortex.com
+ 
+ Class: Form1 Window Class
+ Description: This class handles the main Windows Form of the BeerMe Application
+ </summary>
+	<remarks>
+ This application may be modified from its original work as long as credit to the original developer is given
+ and the resulting application or code derived is not used for profit or other commercial purposes without 
+ written consent from the original developer and Decoded Cortex. Please do not remove these header tags. 
+ </remarks>
+</member><member name="P:BeerMe.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:BeerMe.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:BeerMe.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

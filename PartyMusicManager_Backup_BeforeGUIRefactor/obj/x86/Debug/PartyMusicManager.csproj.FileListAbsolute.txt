@@ -1,0 +1,16 @@
+C:\Killian Intelligence Systems\WeddingPlaylistManager\PartyMusicManager\PartyMusicManager\bin\Debug\PartyMusicManager.exe
+C:\Killian Intelligence Systems\WeddingPlaylistManager\PartyMusicManager\PartyMusicManager\bin\Debug\PartyMusicManager.pdb
+C:\Killian Intelligence Systems\WeddingPlaylistManager\PartyMusicManager\PartyMusicManager\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Killian Intelligence Systems\WeddingPlaylistManager\PartyMusicManager\PartyMusicManager\obj\x86\Debug\PartyMusicManager.Properties.Resources.resources
+C:\Killian Intelligence Systems\WeddingPlaylistManager\PartyMusicManager\PartyMusicManager\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Killian Intelligence Systems\WeddingPlaylistManager\PartyMusicManager\PartyMusicManager\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Killian Intelligence Systems\WeddingPlaylistManager\PartyMusicManager\PartyMusicManager\obj\x86\Debug\PartyMusicManager.exe
+C:\Killian Intelligence Systems\WeddingPlaylistManager\PartyMusicManager\PartyMusicManager\obj\x86\Debug\PartyMusicManager.pdb
+C:\Killian Intelligence Systems\WeddingPlaylistManager\PartyMusicManager\PartyMusicManager\bin\Debug\PartyMusicManager.exe.config
+C:\Killian Intelligence Systems\WeddingPlaylistManager\PartyMusicManager\PartyMusicManager\bin\Debug\MusicLib.dll
+C:\Killian Intelligence Systems\WeddingPlaylistManager\PartyMusicManager\PartyMusicManager\bin\Debug\taglib-sharp.dll
+C:\Killian Intelligence Systems\WeddingPlaylistManager\PartyMusicManager\PartyMusicManager\bin\Debug\MusicLib.pdb
+C:\Killian Intelligence Systems\WeddingPlaylistManager\PartyMusicManager\PartyMusicManager\bin\Debug\MusicPlayerLib.dll
+C:\Killian Intelligence Systems\WeddingPlaylistManager\PartyMusicManager\PartyMusicManager\bin\Debug\MusicPlayerLib.pdb
+C:\Killian Intelligence Systems\WeddingPlaylistManager\PartyMusicManager\PartyMusicManager\obj\x86\Debug\PartyMusicManager.MainForm.resources
+C:\Killian Intelligence Systems\WeddingPlaylistManager\PartyMusicManager\PartyMusicManager\obj\x86\Debug\PartyMusicManager.frmManagePlaylists.resources

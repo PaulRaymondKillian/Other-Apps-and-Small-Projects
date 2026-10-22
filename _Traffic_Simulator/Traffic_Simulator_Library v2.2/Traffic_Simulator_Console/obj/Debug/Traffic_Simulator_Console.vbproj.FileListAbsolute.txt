@@ -1,0 +1,36 @@
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library\Traffic_Simulator_Console\bin\Debug\Traffic_Simulator_Console.exe
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library\Traffic_Simulator_Console\bin\Debug\Traffic_Simulator_Console.pdb
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library\Traffic_Simulator_Console\bin\Debug\Traffic_Simulator_Console.xml
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library\Traffic_Simulator_Console\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library\Traffic_Simulator_Console\obj\Debug\Traffic_Simulator_Console.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library\Traffic_Simulator_Console\obj\Debug\Traffic_Simulator_Console.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library\Traffic_Simulator_Console\obj\Debug\Traffic_Simulator_Console.exe
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library\Traffic_Simulator_Console\obj\Debug\Traffic_Simulator_Console.xml
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library\Traffic_Simulator_Console\obj\Debug\Traffic_Simulator_Console.pdb
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library\Traffic_Simulator_Console\bin\Debug\Traffic_Simulator_Controller.dll
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library\Traffic_Simulator_Console\bin\Debug\Traffic_Simulator_Library.dll
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library\Traffic_Simulator_Console\bin\Debug\ArtificialNeuralNetwork10x10x10x9.dll
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library\Traffic_Simulator_Console\bin\Debug\Traffic_Simulator_Library.pdb
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library\Traffic_Simulator_Console\bin\Debug\Traffic_Simulator_Library.xml
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library\Traffic_Simulator_Console\bin\Debug\ArtificialNeuralNetwork10x10x10x9.pdb
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library\Traffic_Simulator_Console\bin\Debug\ArtificialNeuralNetwork10x10x10x9.xml
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library\Traffic_Simulator_Console\bin\Debug\Traffic_Simulator_Controller.pdb
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library\Traffic_Simulator_Console\bin\Debug\Traffic_Simulator_Controller.xml
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library v2.0\Traffic_Simulator_Console\obj\Debug\Traffic_Simulator_Console.exe
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library v2.0\Traffic_Simulator_Console\obj\Debug\Traffic_Simulator_Console.xml
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library v2.0\Traffic_Simulator_Console\obj\Debug\Traffic_Simulator_Console.pdb
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library v2.0\Traffic_Simulator_Console\bin\Debug\Traffic_Simulator_Console.exe
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library v2.0\Traffic_Simulator_Console\bin\Debug\Traffic_Simulator_Console.pdb
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library v2.0\Traffic_Simulator_Console\bin\Debug\Traffic_Simulator_Console.xml
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library v2.0\Traffic_Simulator_Console\bin\Debug\Traffic_Simulator_Controller.dll
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library v2.0\Traffic_Simulator_Console\bin\Debug\Traffic_Simulator_Library.dll
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library v2.0\Traffic_Simulator_Console\bin\Debug\ArtificialNeuralNetwork10x10x10x9.dll
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library v2.0\Traffic_Simulator_Console\bin\Debug\Traffic_Simulator_Library.pdb
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library v2.0\Traffic_Simulator_Console\bin\Debug\Traffic_Simulator_Library.xml
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library v2.0\Traffic_Simulator_Console\bin\Debug\ArtificialNeuralNetwork10x10x10x9.pdb
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library v2.0\Traffic_Simulator_Console\bin\Debug\ArtificialNeuralNetwork10x10x10x9.xml
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library v2.0\Traffic_Simulator_Console\bin\Debug\Traffic_Simulator_Controller.pdb
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library v2.0\Traffic_Simulator_Console\bin\Debug\Traffic_Simulator_Controller.xml
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library v2.0\Traffic_Simulator_Console\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library v2.0\Traffic_Simulator_Console\obj\Debug\Traffic_Simulator_Console.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Traffic Program\Traffic_Simulator_Library v2.0\Traffic_Simulator_Console\obj\Debug\Traffic_Simulator_Console.vbproj.GenerateResource.Cache

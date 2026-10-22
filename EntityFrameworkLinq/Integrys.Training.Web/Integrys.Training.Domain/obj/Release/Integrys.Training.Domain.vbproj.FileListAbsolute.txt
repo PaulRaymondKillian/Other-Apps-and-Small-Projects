@@ -1,0 +1,11 @@
+C:\Source\_MISC\Integrys.Training.Web\Integrys.Training.Domain\bin\Release\Integrys.Training.Domain.dll.config
+C:\Source\_MISC\Integrys.Training.Web\Integrys.Training.Domain\bin\Release\Integrys.Training.Domain.dll
+C:\Source\_MISC\Integrys.Training.Web\Integrys.Training.Domain\bin\Release\Integrys.Training.Domain.pdb
+C:\Source\_MISC\Integrys.Training.Web\Integrys.Training.Domain\bin\Release\Integrys.Training.Domain.xml
+C:\Source\_MISC\Integrys.Training.Web\Integrys.Training.Domain\obj\Release\ResolveAssemblyReference.cache
+C:\Source\_MISC\Integrys.Training.Web\Integrys.Training.Domain\obj\Release\Integrys.Training.Domain.Resources.resources
+C:\Source\_MISC\Integrys.Training.Web\Integrys.Training.Domain\obj\Release\GenerateResource.read.1.tlog
+C:\Source\_MISC\Integrys.Training.Web\Integrys.Training.Domain\obj\Release\GenerateResource.write.1.tlog
+C:\Source\_MISC\Integrys.Training.Web\Integrys.Training.Domain\obj\Release\Integrys.Training.Domain.dll
+C:\Source\_MISC\Integrys.Training.Web\Integrys.Training.Domain\obj\Release\Integrys.Training.Domain.xml
+C:\Source\_MISC\Integrys.Training.Web\Integrys.Training.Domain\obj\Release\Integrys.Training.Domain.pdb

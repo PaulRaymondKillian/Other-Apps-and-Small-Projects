@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="MeTVdbModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="MeTVdbModelStoreContainer">
+          <EntitySet Name="tEpisode" EntityType="MeTVdbModel.Store.tEpisode" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="tGenre" EntityType="MeTVdbModel.Store.tGenre" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="tShow" EntityType="MeTVdbModel.Store.tShow" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK__tEpisode__Show__35BCFE0A" Association="MeTVdbModel.Store.FK__tEpisode__Show__35BCFE0A">
+            <End Role="tShow" EntitySet="tShow" />
+            <End Role="tEpisode" EntitySet="tEpisode" />
+          </AssociationSet>
+          <AssociationSet Name="FK__tShow__Genre__34C8D9D1" Association="MeTVdbModel.Store.FK__tShow__Genre__34C8D9D1">
+            <End Role="tGenre" EntitySet="tGenre" />
+            <End Role="tShow" EntitySet="tShow" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="tEpisode">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="100" />
+          <Property Name="Show" Type="int" Nullable="false" />
+          <Property Name="Season" Type="int" />
+          <Property Name="SeasonEpNum" Type="int" />
+          <Property Name="Description" Type="nvarchar(max)" />
+          <Property Name="VideoFilePath" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="ImageFilePath" Type="nvarchar(max)" />
+          <Property Name="RecentPlays" Type="int" Nullable="false" />
+          <Property Name="TotalPlays" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="tGenre">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="100" />
+          <Property Name="Description" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="tShow">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="100" />
+          <Property Name="Genre" Type="int" Nullable="false" />
+          <Property Name="Description" Type="nvarchar(max)" />
+        </EntityType>
+        <Association Name="FK__tEpisode__Show__35BCFE0A">
+          <End Role="tShow" Type="MeTVdbModel.Store.tShow" Multiplicity="1" />
+          <End Role="tEpisode" Type="MeTVdbModel.Store.tEpisode" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tShow">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="tEpisode">
+              <PropertyRef Name="Show" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__tShow__Genre__34C8D9D1">
+          <End Role="tGenre" Type="MeTVdbModel.Store.tGenre" Multiplicity="1" />
+          <End Role="tShow" Type="MeTVdbModel.Store.tShow" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tGenre">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="tShow">
+              <PropertyRef Name="Genre" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="MeTVdbModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="MeTVdbEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Episodes" EntityType="MeTVdbModel.Episode" />
+          <EntitySet Name="Genres" EntityType="MeTVdbModel.Genre" />
+          <EntitySet Name="Shows" EntityType="MeTVdbModel.Show" />
+          <AssociationSet Name="FK__tEpisode__Show__35BCFE0A" Association="MeTVdbModel.FK__tEpisode__Show__35BCFE0A">
+            <End Role="tShow" EntitySet="Shows" />
+            <End Role="tEpisode" EntitySet="Episodes" />
+          </AssociationSet>
+          <AssociationSet Name="FK__tShow__Genre__34C8D9D1" Association="MeTVdbModel.FK__tShow__Genre__34C8D9D1">
+            <End Role="tGenre" EntitySet="Genres" />
+            <End Role="tShow" EntitySet="Shows" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Episode">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Show" Type="Int32" Nullable="false" />
+          <Property Name="Season" Type="Int32" />
+          <Property Name="SeasonEpNum" Type="Int32" />
+          <Property Name="Description" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="VideoFilePath" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="ImageFilePath" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="RecentPlays" Type="Int32" Nullable="false" />
+          <Property Name="TotalPlays" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="tShow" Relationship="MeTVdbModel.FK__tEpisode__Show__35BCFE0A" FromRole="tEpisode" ToRole="tShow" />
+        </EntityType>
+        <EntityType Name="Genre">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Description" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="tShows" Relationship="MeTVdbModel.FK__tShow__Genre__34C8D9D1" FromRole="tGenre" ToRole="tShow" />
+        </EntityType>
+        <EntityType Name="Show">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Genre" Type="Int32" Nullable="false" />
+          <Property Name="Description" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="tEpisodes" Relationship="MeTVdbModel.FK__tEpisode__Show__35BCFE0A" FromRole="tShow" ToRole="tEpisode" />
+          <NavigationProperty Name="tGenre" Relationship="MeTVdbModel.FK__tShow__Genre__34C8D9D1" FromRole="tShow" ToRole="tGenre" />
+        </EntityType>
+        <Association Name="FK__tEpisode__Show__35BCFE0A">
+          <End Role="tShow" Type="MeTVdbModel.Show" Multiplicity="1" />
+          <End Role="tEpisode" Type="MeTVdbModel.Episode" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tShow">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="tEpisode">
+              <PropertyRef Name="Show" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__tShow__Genre__34C8D9D1">
+          <End Role="tGenre" Type="MeTVdbModel.Genre" Multiplicity="1" />
+          <End Role="tShow" Type="MeTVdbModel.Show" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tGenre">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="tShow">
+              <PropertyRef Name="Genre" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="MeTVdbModelStoreContainer" CdmEntityContainer="MeTVdbEntities">
+          <EntitySetMapping Name="Episodes"><EntityTypeMapping TypeName="MeTVdbModel.Episode"><MappingFragment StoreEntitySet="tEpisode">
+            <ScalarProperty Name="ID" ColumnName="ID" />
+            <ScalarProperty Name="Name" ColumnName="Name" />
+            <ScalarProperty Name="Show" ColumnName="Show" />
+            <ScalarProperty Name="Season" ColumnName="Season" />
+            <ScalarProperty Name="SeasonEpNum" ColumnName="SeasonEpNum" />
+            <ScalarProperty Name="Description" ColumnName="Description" />
+            <ScalarProperty Name="VideoFilePath" ColumnName="VideoFilePath" />
+            <ScalarProperty Name="ImageFilePath" ColumnName="ImageFilePath" />
+            <ScalarProperty Name="RecentPlays" ColumnName="RecentPlays" />
+            <ScalarProperty Name="TotalPlays" ColumnName="TotalPlays" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Genres"><EntityTypeMapping TypeName="MeTVdbModel.Genre"><MappingFragment StoreEntitySet="tGenre">
+            <ScalarProperty Name="ID" ColumnName="ID" />
+            <ScalarProperty Name="Name" ColumnName="Name" />
+            <ScalarProperty Name="Description" ColumnName="Description" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Shows"><EntityTypeMapping TypeName="MeTVdbModel.Show"><MappingFragment StoreEntitySet="tShow">
+            <ScalarProperty Name="ID" ColumnName="ID" />
+            <ScalarProperty Name="Name" ColumnName="Name" />
+            <ScalarProperty Name="Genre" ColumnName="Genre" />
+            <ScalarProperty Name="Description" ColumnName="Description" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="MeTVModel">
+        <EntityTypeShape EntityType="MeTVdbModel.Episode" Width="1.5" PointX="5.25" PointY="1" Height="3.1340950520833331" IsExpanded="true" />
+        <EntityTypeShape EntityType="MeTVdbModel.Genre" Width="1.5" PointX="0.75" PointY="1.625" Height="1.7879850260416674" IsExpanded="true" />
+        <EntityTypeShape EntityType="MeTVdbModel.Show" Width="1.5" PointX="3" PointY="1.5" Height="2.1725878906249996" IsExpanded="true" />
+        <AssociationConnector Association="MeTVdbModel.FK__tEpisode__Show__35BCFE0A" ManuallyRouted="false">
+          <ConnectorPoint PointX="4.5" PointY="2.5862939453125" />
+          <ConnectorPoint PointX="5.25" PointY="2.5862939453125" />
+        </AssociationConnector>
+        <AssociationConnector Association="MeTVdbModel.FK__tShow__Genre__34C8D9D1" ManuallyRouted="false">
+          <ConnectorPoint PointX="2.25" PointY="2.5189925130208337" />
+          <ConnectorPoint PointX="3" PointY="2.5189925130208337" />
+        </AssociationConnector>
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

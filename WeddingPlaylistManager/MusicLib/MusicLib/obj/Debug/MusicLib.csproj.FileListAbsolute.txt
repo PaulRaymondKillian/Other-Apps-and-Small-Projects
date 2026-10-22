@@ -1,0 +1,11 @@
+C:\Source\_MISC\WeddingPlaylistManager\MusicLib\MusicLib\obj\Debug\ResolveAssemblyReference.cache
+C:\Source\_MISC\WeddingPlaylistManager\MusicLib\MusicLib\bin\Debug\MusicLib.dll
+C:\Source\_MISC\WeddingPlaylistManager\MusicLib\MusicLib\bin\Debug\MusicLib.pdb
+C:\Source\_MISC\WeddingPlaylistManager\MusicLib\MusicLib\obj\Debug\MusicLib.dll
+C:\Source\_MISC\WeddingPlaylistManager\MusicLib\MusicLib\obj\Debug\MusicLib.pdb
+C:\Source\_MISC\WeddingPlaylistManager\MusicLib\MusicLib\bin\Debug\taglib-sharp.dll
+C:\Killian Intelligence Systems\WeddingPlaylistManager\MusicLib\MusicLib\obj\Debug\ResolveAssemblyReference.cache
+C:\Killian Intelligence Systems\WeddingPlaylistManager\MusicLib\MusicLib\obj\Debug\MusicLib.dll
+C:\Killian Intelligence Systems\WeddingPlaylistManager\MusicLib\MusicLib\obj\Debug\MusicLib.pdb
+C:\Killian Intelligence Systems\WeddingPlaylistManager\MusicLib\MusicLib\bin\Debug\MusicLib.dll
+C:\Killian Intelligence Systems\WeddingPlaylistManager\MusicLib\MusicLib\bin\Debug\MusicLib.pdb

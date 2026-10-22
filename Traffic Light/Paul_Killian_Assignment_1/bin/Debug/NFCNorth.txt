@@ -1,0 +1,4 @@
+Packers	Green Bay	Wisconsin
+Bears	Chicago	Illinois
+Vikings	Minneapolis	Minnesota
+Lions	Detroit	Michigan
